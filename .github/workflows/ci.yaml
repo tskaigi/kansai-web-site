@@ -1,0 +1,33 @@
+name: Check And Build
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+  check-and-build:
+    runs-on: ubuntu-latest
+    env:
+      REPO_NAME: ${{ github.event.repository.name }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: "package.json"
+      - name: Restore node_modules cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+            ${{ github.workspace }}/node_modules
+            ${{ github.workspace }}/.next/cache
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile --prefer-offline
+      - name: Check
+        run: yarn run check
+      - name: Next Lint
+        run: yarn next:lint
+      - name: Build
+        run: yarn build

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "check": "biome check --write ./src",
+    "check": "biome check ./src",
+    "check:fix": "biome check --write ./src",
     "next:lint": "next lint"
   },
   "dependencies": {
