@@ -24,10 +24,10 @@ jobs:
             ${{ github.workspace }}/.next/cache
           key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
       - name: Install dependencies
-        run: yarn install --frozen-lockfile --prefer-offline
+        run: npm ci --prefer-offline
       - name: Check
-        run: yarn run check
+        run: npm run check
       - name: Next Lint
-        run: yarn next:lint
+        run: npm run next:lint
       - name: Build
-        run: yarn build
+        run: npm run build
