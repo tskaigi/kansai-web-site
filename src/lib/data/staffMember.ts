@@ -5,19 +5,67 @@ export type Member = {
 };
 
 export const coreMemberInfos: Member[] = [
-  // TODO: 正式なメンバーに差し替える
   {
-    name: "soso",
-    image: "soso.jpg",
-    href: "https://twitter.com/sosomuse",
+    name: "OJI",
+    image: "OldBigBuddha.jpg",
+    href: "https://x.com/OldBigBuddha",
+  },
+  {
+    name: "hoshico",
+    image: "hoshico.jpg",
+    href: "https://x.com/hoshihoshi_yasu",
+  },
+  {
+    name: "midori",
+    image: "midori.jpg",
+    href: "https://x.com/midori697810050",
+  },
+  {
+    name: "yuta-ike",
+    image: "yuta-ike.jpeg",
+    href: "https://x.com/Selria1",
+  },
+  {
+    name: "magcho",
+    image: "magcho.png",
+    href: "https://x.com/magcho0527",
   },
 ] satisfies Member[];
 
 export const memberInfos = [
-  // TODO: 正式なメンバーに差し替える
   {
     name: "soso",
-    image: "soso.jpg",
-    href: "https://twitter.com/sosomuse",
+    image: "sosomuse.jpg",
+    href: "https://x.com/sosomuse",
+  },
+  {
+    name: "taniyanpgd",
+    image: "taniyanpgd.jpg",
+    href: "https://x.com/taniyanpgd",
+  },
+  {
+    name: "high-g",
+    image: "high_g_engineer.jpg",
+    href: "https://x.com/high_g_engineer",
+  },
+  {
+    name: "hamacccccchan",
+    image: "hamacccccchan.jpeg",
+    href: "https://x.com/hamacccccchan",
+  },
+  {
+    name: "susisu",
+    image: "susisu.jpg",
+    href: "https://github.com/susisu",
+  },
+  {
+    name: "honchang",
+    image: "hanachang.jpg",
+    href: "https://x.com/honchang_",
+  },
+  {
+    name: "yasuda",
+    image: "Quarter_st.jpg",
+    href: "https://x.com/Quarter_st",
   },
 ] satisfies Member[];
