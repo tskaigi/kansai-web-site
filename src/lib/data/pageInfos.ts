@@ -1,5 +1,5 @@
 import type { IconType } from "react-icons";
-import { FaBook } from "react-icons/fa";
+import { FaBan, FaBook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiHome } from "react-icons/hi";
@@ -35,6 +35,15 @@ export const pageInfos: PageInfo[] = [
     description: "",
     icon: HiHome,
     href: "/",
+  },
+  {
+    index: 2,
+    showNavbar: true,
+    showFooter: true,
+    title: "行動規範",
+    description: "TSKaigiの行動規範です。参加にあったって必ずご一読ください。",
+    icon: FaBan,
+    href: "/code-of-conduct",
   },
 ];
 
