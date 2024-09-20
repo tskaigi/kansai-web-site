@@ -2,10 +2,9 @@ import { getDescriptionByIndex, getTitleByIndex } from "@/lib/utils";
 import Container from "@/ui/container";
 import type { Metadata } from "next";
 
-const targetIndex = 2;
 export const metadata: Metadata = {
-  title: getTitleByIndex(targetIndex),
-  description: getDescriptionByIndex(targetIndex),
+  title: getTitleByIndex("codeOfContact"),
+  description: getDescriptionByIndex("codeOfContact"),
 };
 
 export default function Page() {

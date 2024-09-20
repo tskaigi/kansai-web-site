@@ -21,11 +21,7 @@ export default function Footer() {
         {pageInfos.map(
           (link: PageInfo) =>
             link.showFooter && (
-              <Link
-                key={link.index}
-                href={link.href}
-                className="link-hover pl-2"
-              >
+              <Link key={link.id} href={link.href} className="link-hover pl-2">
                 {link.title}
               </Link>
             ),

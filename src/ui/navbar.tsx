@@ -30,7 +30,7 @@ export default function NavBar() {
                   const LinkIcon = link.icon;
                   return (
                     link.showNavbar && (
-                      <li key={link.index}>
+                      <li key={link.id}>
                         <Link href={link.href}>
                           <LinkIcon className="size-5" />
                           {link.title}
@@ -44,7 +44,7 @@ export default function NavBar() {
                   return (
                     link.showNavbar && (
                       <div
-                        key={link.index}
+                        key={link.id}
                         className={link.emphasis ? "indicator text-accent" : ""}
                       >
                         <li className="flex items-center">
@@ -103,7 +103,7 @@ export default function NavBar() {
               const LinkIcon = link.icon;
               return (
                 link.showNavbar && (
-                  <li key={link.index}>
+                  <li key={link.id}>
                     <Link href={link.href} onClick={closeSideBar}>
                       <LinkIcon className="size-4" />
                       {link.title}
@@ -117,7 +117,7 @@ export default function NavBar() {
               return (
                 link.showNavbar && (
                   <div
-                    key={link.index}
+                    key={link.id}
                     className={link.emphasis ? "indicator text-accent" : ""}
                   >
                     <li>
