@@ -68,4 +68,9 @@ export const memberInfos = [
     image: "Quarter_st.jpg",
     href: "https://x.com/Quarter_st",
   },
+  {
+    name: "yodaka",
+    image: "engineerYodaka.jpg",
+    href: "https://x.com/engineerYodaka",
+  },
 ] satisfies Member[];
