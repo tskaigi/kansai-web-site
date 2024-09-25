@@ -10,18 +10,15 @@ export default function Home() {
           <div className="mx-auto max-w-7xl ">
             <div className="mx-auto max-w-4xl lg:pt-8">
               <h1 className="mt-4 text-2xl font-bold tracking-tight text-accent">
-                日本最大級の
-                <br />
-                TypeScriptをテーマとした技術カンファレンスへようこそ
+                日本最大級のTypeScriptをテーマとした技術カンファレンスを関西でも開催
               </h1>
               <p className="mt-6 text-lg leading-7">
+                TSKaigi Kansaiは、2024年5月に東京で開催されたTSKaigi
+                2024から派生した初の地域型イベントです。
+                <br />
                 TSKaigi
-                Kansaiは、日本最大級のTypeScriptをテーマとした技術カンファレンスです。
-                <br />
-                コロナ禍で様々なオフラインイベントが打撃を受ける中、TypeScriptを扱うエンジニアが会場で集まる機会は失われていきました。
-                <br />
-                新型コロナウイルスが落ち着いた今、各所で蓄積されたノウハウが日の目を浴び、より生き生きとTSエンジニアが働ける世界を目指して、TSKaigi
-                Kansaiを開催します。
+                2024を踏襲しつつ、学び・情報交換・交流の場を提供し、関西地域の
+                TypeScriptコミュニティを盛り上げることを目指しています。
               </p>
             </div>
           </div>
