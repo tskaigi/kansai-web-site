@@ -43,8 +43,8 @@ export const StaffMemberSection = () => {
           コアスタッフ
         </h2>
       </div>
-      <div className="mx-auto w-5/6 px-2 pb-20 md:w-4/6 md:px-20">
-        <div className="mx-auto grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+      <div className="mx-auto w-5/6 px-2 pb-20 md:px-20">
+        <div className="mx-auto grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
           {coreMemberInfos.map((coreMemberInfo) => (
             <StaffCard key={coreMemberInfo.name} {...coreMemberInfo} />
           ))}
