@@ -1,11 +1,11 @@
 import type { IconType } from "react-icons";
-import { FaBook } from "react-icons/fa";
+import { FaBan, FaBook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiHome } from "react-icons/hi";
 
 export type PageInfo = {
-  index: number;
+  id: string;
   showNavbar: boolean;
   showFooter: boolean;
   title: string;
@@ -16,7 +16,7 @@ export type PageInfo = {
 };
 
 export type AccountLink = {
-  index: number;
+  id: string;
   showNavbar: boolean;
   showFooter: boolean;
   emphasis: boolean;
@@ -26,9 +26,9 @@ export type AccountLink = {
   href: string;
 };
 
-export const pageInfos: PageInfo[] = [
+export const pageInfos = [
   {
-    index: 1,
+    id: "home",
     showNavbar: false,
     showFooter: true,
     title: "Home",
@@ -36,11 +36,22 @@ export const pageInfos: PageInfo[] = [
     icon: HiHome,
     href: "/",
   },
-];
-
-export const accountLink: AccountLink[] = [
   {
-    index: 1,
+    id: "codeOfContact",
+    showNavbar: true,
+    showFooter: true,
+    title: "行動規範",
+    description: "TSKaigiの行動規範です。参加にあったって必ずご一読ください。",
+    icon: FaBan,
+    href: "/code-of-conduct",
+  },
+] as const satisfies PageInfo[];
+
+export type PageID = (typeof pageInfos)[number]["id"];
+
+export const accountLink = [
+  {
+    id: "x",
     showNavbar: true,
     showFooter: true,
     emphasis: false,
@@ -50,7 +61,7 @@ export const accountLink: AccountLink[] = [
     href: "https://twitter.com/tskaigi",
   },
   {
-    index: 2,
+    id: "hatenaBlog",
     title: "Blog",
     showNavbar: true,
     showFooter: true,
@@ -60,7 +71,7 @@ export const accountLink: AccountLink[] = [
     href: "https://tskaigi.hatenablog.com/",
   },
   {
-    index: 3,
+    id: "youtube",
     title: "公式YouTube",
     showNavbar: true,
     showFooter: true,
@@ -70,4 +81,6 @@ export const accountLink: AccountLink[] = [
     icon: FaYoutube,
     href: "https://www.youtube.com/@tskaigi",
   },
-];
+] as const satisfies AccountLink[];
+
+export type AccountLinkID = (typeof accountLink)[number]["id"];

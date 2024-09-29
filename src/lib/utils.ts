@@ -1,11 +1,11 @@
-import { pageInfos } from "../lib/data/pageInfos";
+import { type PageID, pageInfos } from "../lib/data/pageInfos";
 
-export const getTitleByIndex = (index: number): string | undefined => {
-  const pageInfo = pageInfos.find((page) => page.index === index);
+export const getTitleByIndex = (id: PageID): string | undefined => {
+  const pageInfo = pageInfos.find((page) => page.id === id);
   return pageInfo?.title;
 };
 
-export const getDescriptionByIndex = (index: number): string | undefined => {
-  const pageInfo = pageInfos.find((page) => page.index === index);
+export const getDescriptionByIndex = (id: PageID): string | undefined => {
+  const pageInfo = pageInfos.find((page) => page.id === id);
   return pageInfo?.description;
 };
