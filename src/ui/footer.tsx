@@ -11,7 +11,6 @@ export default function Footer() {
           rel="noopener noreferrer"
           target="_blank"
         >
-          {/* TODO: ロゴを関西用に置き換える */}
           <img src="/logo.svg" className="my-4 w-36" alt="logo" />
           一般社団法人TSKaigi Association
         </a>

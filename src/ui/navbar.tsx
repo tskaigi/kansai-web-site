@@ -20,7 +20,6 @@ export default function NavBar() {
           <div className="navbar w-full">
             <div className="mx-2 flex-1 px-2">
               <Link href={"/"}>
-                {/* TODO: ロゴを関西用に置き換える */}
                 <img src="/logo.svg" className="w-24" alt="logo" />
               </Link>
             </div>
