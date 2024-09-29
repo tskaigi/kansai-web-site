@@ -5,6 +5,13 @@ import { HiExternalLink } from "react-icons/hi";
 export default function Home() {
   return (
     <>
+      <div className="bg-white">
+        <img
+          src="/banner.jpg"
+          className="mx-auto w-full max-h-[30vh] object-cover md:max-h-[55vh] lg:max-h-[60vh]"
+          alt="banner"
+        />
+      </div>
       <Container>
         <div className="relative isolate overflow-hidden">
           <div className="mx-auto max-w-7xl ">

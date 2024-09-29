@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tskaigi",
     creator: "@tskaigi",
-    // images: ["/banner.jpg"],
+    images: ["/banner.jpg"],
   },
   openGraph: {
     title: "TSKaigi Kansai 2024",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     description:
       "日本最大級のTypeScriptをテーマとした技術カンファレンスを関西でも開催",
     type: "website",
-    // images: ["/banner.jpg"],
+    images: ["/banner.jpg"],
   },
 };
 
