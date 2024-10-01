@@ -20,12 +20,12 @@ export default function Home() {
                 日本最大級のTypeScriptをテーマとした技術カンファレンスを関西でも開催
               </h1>
               <p className="mt-6 text-lg leading-7">
-                TSKaigi Kansaiは、2024年5月に東京で開催されたTSKaigi
+                TSKaigi Kansai 2024は、2024年5月に東京で開催されたTSKaigi
                 2024から派生した初の地域型イベントです。
                 <br />
                 TSKaigi
                 2024を踏襲しつつ、学び・情報交換・交流の場を提供し、関西地域の
-                TypeScriptコミュニティを盛り上げることを目指しています。
+                TypeScriptコミュニティを盛り上げます。
               </p>
             </div>
           </div>
