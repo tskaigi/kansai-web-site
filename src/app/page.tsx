@@ -1,4 +1,6 @@
+import CommitteeCards from "@/components/CommitteeCards";
 import { StaffMemberSection } from "@/components/StaffMemberSection";
+import { selectionCommittee } from "@/lib/data/committee";
 import Container from "@/ui/container";
 import { HiExternalLink } from "react-icons/hi";
 
@@ -65,6 +67,14 @@ export default function Home() {
           {/* TODO: 会場マップを用意する */}
         </div>
       </Container>
+      <div className="mx-auto max-w-5xl mb-40">
+        <h2 className=" scroll-mt-20 text-center text-2xl font-bold text-accent lg:text-3xl">
+          トーク&LT審査員
+        </h2>
+        <div className="px-4 mb-20">
+          <CommitteeCards cardData={selectionCommittee} />
+        </div>
+      </div>
       <StaffMemberSection />
     </>
   );
