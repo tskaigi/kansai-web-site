@@ -74,6 +74,11 @@ export const memberInfos = [
     href: "https://x.com/engineerYodaka",
   },
   {
+    name: "is_ryo",
+    image: "is_ryo.jpg",
+    href: "https://x.com/is_ryo",
+  },
+  {
     name: "berlysia",
     image: "berlysia.webp",
     href: "https://x.com/berlysia",
