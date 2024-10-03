@@ -16,4 +16,10 @@ export const selectionCommittee: Committee[] = [
       "https://pbs.twimg.com/profile_images/1341186424423378944/gYTKIbFl_400x400.jpg",
     links: [{ icon: FaXTwitter, href: "https://twitter.com/uhyo_" }],
   },
+  {
+    title: "shisama",
+    imageUrl:
+      "https://pbs.twimg.com/profile_images/1591431637950418945/U97Oiuyq_400x400.jpg",
+    links: [{ icon: FaXTwitter, href: "https://twitter.com/shisama_" }],
+  },
 ];
