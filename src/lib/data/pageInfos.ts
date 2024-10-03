@@ -45,6 +45,15 @@ export const pageInfos = [
     icon: FaBan,
     href: "/code-of-conduct",
   },
+  {
+    id: "specificCommercial",
+    title: "特定商取引法に基づく表記",
+    showNavbar: false,
+    showFooter: true,
+    description: "特定商取引法に基づく表記",
+    icon: FaBan,
+    href: "/specific-commercial",
+  },
 ] as const satisfies PageInfo[];
 
 export type PageID = (typeof pageInfos)[number]["id"];
