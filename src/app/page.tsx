@@ -1,4 +1,6 @@
+import CommitteeCards from "@/components/CommitteeCards";
 import { StaffMemberSection } from "@/components/StaffMemberSection";
+import { selectionCommittee } from "@/lib/data/committee";
 import Container from "@/ui/container";
 import { HiExternalLink } from "react-icons/hi";
 
@@ -27,6 +29,16 @@ export default function Home() {
                 2024を踏襲しつつ、学び・情報交換・交流の場を提供し、関西地域の
                 TypeScriptコミュニティを盛り上げます。
               </p>
+              <div className="mt-4 text-center">
+                <a
+                  href="https://peatix.com/event/4149743/view"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className="max-w-xs btn btn-lg btn-accent w-full overflow-hidden whitespace-nowrap bg-gradient-to-r from-accent to-[#FFCDA8] font-bold text-primary-content hover:opacity-90"
+                >
+                  チケットを購入
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -65,6 +77,14 @@ export default function Home() {
           {/* TODO: 会場マップを用意する */}
         </div>
       </Container>
+      <div className="mx-auto max-w-5xl mb-40">
+        <h2 className=" scroll-mt-20 text-center text-2xl font-bold text-accent lg:text-3xl">
+          トーク&LT審査員
+        </h2>
+        <div className="px-4 mb-20">
+          <CommitteeCards cardData={selectionCommittee} />
+        </div>
+      </div>
       <StaffMemberSection />
     </>
   );
