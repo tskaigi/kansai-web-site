@@ -29,6 +29,16 @@ export default function Home() {
                 2024を踏襲しつつ、学び・情報交換・交流の場を提供し、関西地域の
                 TypeScriptコミュニティを盛り上げます。
               </p>
+              <div className="mt-4 text-center">
+                <a
+                  href="https://peatix.com/event/4149743/view"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className="max-w-xs btn btn-lg btn-accent w-full overflow-hidden whitespace-nowrap bg-gradient-to-r from-accent to-[#FFCDA8] font-bold text-primary-content hover:opacity-90"
+                >
+                  チケットを購入
+                </a>
+              </div>
             </div>
           </div>
         </div>
