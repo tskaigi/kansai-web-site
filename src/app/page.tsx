@@ -29,7 +29,7 @@ export default function Home() {
               </p>
               <div className="mt-4 text-center">
                 <a
-                  href="/"
+                  href="https://peatix.com/event/4149743/view"
                   rel="noopener noreferrer"
                   target="_blank"
                   className="max-w-xs btn btn-lg btn-accent w-full overflow-hidden whitespace-nowrap bg-gradient-to-r from-accent to-[#FFCDA8] font-bold text-primary-content hover:opacity-90"
