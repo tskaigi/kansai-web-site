@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <div className="bg-white">
         <img
-          src="/banner.jpg"
+          src="/banner.webp"
           className="mx-auto w-full max-h-[30vh] object-cover md:max-h-[55vh] lg:max-h-[60vh]"
           alt="banner"
         />
