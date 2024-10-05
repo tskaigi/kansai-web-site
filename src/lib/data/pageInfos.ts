@@ -4,6 +4,8 @@ import { FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiHome } from "react-icons/hi";
 
+export const TICKET_PAGE_URL = "https://peatix.com/event/4149743";
+
 export type PageInfo = {
   id: string;
   showNavbar: boolean;
