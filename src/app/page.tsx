@@ -1,6 +1,7 @@
 import CommitteeCards from "@/components/CommitteeCards";
 import { StaffMemberSection } from "@/components/StaffMemberSection";
 import { selectionCommittee } from "@/lib/data/committee";
+import { TICKET_PAGE_URL } from "@/lib/data/pageInfos";
 import Container from "@/ui/container";
 import { HiExternalLink } from "react-icons/hi";
 
@@ -31,7 +32,7 @@ export default function Home() {
               </p>
               <div className="mt-4 text-center">
                 <a
-                  href="https://peatix.com/event/4149743/view"
+                  href={TICKET_PAGE_URL}
                   rel="noopener noreferrer"
                   target="_blank"
                   className="max-w-xs btn btn-lg btn-accent w-full overflow-hidden whitespace-nowrap bg-gradient-to-r from-accent to-[#FFCDA8] font-bold text-primary-content hover:opacity-90"

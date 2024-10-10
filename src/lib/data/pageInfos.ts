@@ -4,6 +4,8 @@ import { FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiHome } from "react-icons/hi";
 
+export const TICKET_PAGE_URL = "https://peatix.com/event/4149743";
+
 export type PageInfo = {
   id: string;
   showNavbar: boolean;
@@ -44,6 +46,15 @@ export const pageInfos = [
     description: "TSKaigiの行動規範です。参加にあったって必ずご一読ください。",
     icon: FaBan,
     href: "/code-of-conduct",
+  },
+  {
+    id: "specificCommercial",
+    title: "特定商取引法に基づく表記",
+    showNavbar: false,
+    showFooter: true,
+    description: "特定商取引法に基づく表記",
+    icon: FaBan,
+    href: "/specific-commercial",
   },
 ] as const satisfies PageInfo[];
 
