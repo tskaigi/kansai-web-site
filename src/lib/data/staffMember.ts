@@ -30,6 +30,11 @@ export const coreMemberInfos: Member[] = [
     image: "magcho.png",
     href: "https://x.com/magcho0527",
   },
+  {
+    name: "higaki",
+    image: "higaki.png",
+    href: "https://x.com/higaki_program",
+  },
 ] satisfies Member[];
 
 export const memberInfos = [
