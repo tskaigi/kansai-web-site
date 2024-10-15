@@ -56,7 +56,7 @@ const goldSponsors: Gold[] = [
     logoImage: "sponsor/avita.png",
     logoLink: "https://avita.co.jp/",
     description:
-      "",
+      "AVITAは大阪大学基礎工学研究科教授の石黒浩が代表を務める大学発スタートアップ企業。弊社のフロントエンド開発ではTypeScriptで開発することを統一しており、アバターのリモート接客で利用者間のリアルタイム通信処理やVRMのアバター表示制御もTypeScriptの型の恩恵を最大限享受しています。",
   },
   { // チェック不要
     name: "株式会社ベースマキナ",
