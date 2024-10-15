@@ -119,7 +119,7 @@ const goldSponsors: Gold[] = [
 const silverSponsors: Silver[] = [
   { // ロゴチェックが必要、ロゴ未回収
     name: "LINEヤフー株式会社",
-    logoImage: "https://picsum.photos/seed/picsum/1200/600",
+    logoImage: "sponsor/lineyahoo.png",
     logoLink: "https://www.lycorp.co.jp/ja/technology/",
   },
   { // チェック不要
