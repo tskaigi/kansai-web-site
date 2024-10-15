@@ -58,23 +58,23 @@ const goldSponsors: Gold[] = [
     description:
       "",
   },
-  // { // ベースマキナ、未回答
-  //   name: "ゴールドスポンサー２",
-  //   logoImage: "https://picsum.photos/seed/picsum/1200/600",
-  //   logoLink: "https://x.com/tskaigi",
-  //   description:
-  //     "これはゴールドスポンサーのテスト説明文です。\n改行もできます。",
-  // },
-  { // チェック不要、ロゴ未回収
+  { // チェック不要
+    name: "株式会社ベースマキナ",
+    logoImage: "sponsor/basemachina.png",
+    logoLink: "https://about.basemachina.com",
+    description:
+      "",
+  },
+  { // チェック不要
     name: "株式会社Helpfeel",
-    logoImage: "https://picsum.photos/seed/picsum/1200/600",
+    logoImage: "sponsor/helpfeel.png",
     logoLink: "https://recruit-engineer.helpfeel.com/",
     description:
       "株式会社HelpfeelではHelpfeel,Scrapbox,Gyazoの開発運用を行なっています。全てのプロダクトでTypeScriptを使用し、中でもHelpfeelはブラウザ上で動く独自の検索エンジンをTypeScriptで実装しています。TypeScriptについて語りましょう！",
   },
-  { // ロゴチェックが必要、ロゴ未回収
+  { // ロゴチェックが必要
     name: "株式会社カケハシ",
-    logoImage: "https://picsum.photos/seed/picsum/1200/600",
+    logoImage: "sponsor/kakehashi.png",
     logoLink: "https://hrmos.co/pages/kakehashi",
     description:
       "株式会社カケハシは、日本の医療システムの再構築を目指すヘルステックスタートアップ企業です。患者さんにとってより良い医療を、医療現場にとって持続可能な形で実現します。 スピーディーな開発を実現するため、カケハシではフロントエンドからバックエンドまで幅広くTypeScriptを活用しています。",
@@ -86,9 +86,9 @@ const goldSponsors: Gold[] = [
     description:
       "",
   },
-  { // チェック不要、ロゴ未回収
+  { // チェック不要
     name: "株式会社ビットキー",
-    logoImage: "https://picsum.photos/seed/picsum/1200/600",
+    logoImage: "sponsor/bitkey.png",
     logoLink: "https://bitkey.co.jp/",
     description:
       "",
