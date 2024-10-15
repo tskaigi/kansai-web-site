@@ -48,6 +48,9 @@ export default function Home() {
             <div className="mb-5 text-center text-2xl font-bold">
               開催: 2024年11月16日
             </div>
+            <div className="mb-5 text-center text-2xl font-bold">
+              時間: 10:30～18:00（開場10:00／懇親会～20:00）
+            </div>
             <div className="m-auto text-center text-xl font-bold">
               <p>
                 <span>
