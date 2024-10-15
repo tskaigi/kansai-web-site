@@ -84,7 +84,7 @@ const goldSponsors: Gold[] = [
     logoImage: "sponsor/plaid.png",
     logoLink: "https://recruit.plaid.co.jp/engineer",
     description:
-      "",
+      "プレイド(https://recruit.plaid.co.jp/engineer)は、サイトやアプリの来訪ユーザーをリアルタイムで解析＆最適なアクションを届ける「KARTE」などのプロダクトを展開しています。\n各プロダクトのフロントエンドとバックエンド双方でTypeScriptを採用し、エディタなどの複雑系UIや大規模データ基盤などを開発したいエンジニアを絶賛募集中です！",
   },
   { // チェック不要
     name: "株式会社ビットキー",
