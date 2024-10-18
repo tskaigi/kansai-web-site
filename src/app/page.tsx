@@ -1,4 +1,5 @@
 import CommitteeCards from "@/components/CommitteeCards";
+import { JobBoard } from "@/components/JobBoard";
 import { StaffMemberSection } from "@/components/StaffMemberSection";
 import { selectionCommittee } from "@/lib/data/committee";
 import { TICKET_PAGE_URL } from "@/lib/data/pageInfos";
@@ -87,6 +88,7 @@ export default function Home() {
         </div>
       </div>
       <StaffMemberSection />
+      <JobBoard />
     </>
   );
 }
