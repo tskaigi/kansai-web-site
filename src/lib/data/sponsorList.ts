@@ -62,7 +62,8 @@ const goldSponsors: Gold[] = [
     name: "株式会社ベースマキナ",
     logoImage: "sponsor/basemachina.png",
     logoLink: "https://about.basemachina.com",
-    description: "株式会社ベースマキナは、管理画面を数分で立ち上げるローコードSaaS「BaseMachina」を提供しています。\n画面の構築やAPI・DBの呼び出しをする機能の汎用性を高める中でTypeScriptの恩恵を多大に受けています。\n技術的に面白い裏話も多々ございますので、懇親会やブースでお話しましょう！",
+    description:
+      "株式会社ベースマキナは、管理画面を数分で立ち上げるローコードSaaS「BaseMachina」を提供しています。\n画面の構築やAPI・DBの呼び出しをする機能の汎用性を高める中でTypeScriptの恩恵を多大に受けています。\n技術的に面白い裏話も多々ございますので、懇親会やブースでお話しましょう！",
   },
   {
     name: "株式会社Helpfeel",
@@ -129,12 +130,12 @@ const silverSponsors: Silver[] = [
   {
     name: "NILTO",
     logoImage: "sponsor/nilto.png",
-    logoLink: "https://www.nilto.com/ja"
+    logoLink: "https://www.nilto.com/ja",
   },
   {
     name: "株式会社令和トラベル",
     logoImage: "sponsor/reiwa.png",
-    logoLink: "https://www.reiwatravel.co.jp/"
+    logoLink: "https://www.reiwatravel.co.jp/",
   },
 ];
 
