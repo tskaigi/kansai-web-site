@@ -29,7 +29,7 @@ const platinumSponsors: Platinum[] = [
     logoImage: "sponsor/toggle.png",
     logoLink: "https://toggle.co.jp/",
     description:
-      "トグルホールディングスは、「すべてのまちと、まちをつくる人たちのために」というミッションを基に、「不動産」「建築」「金融」の3つの業界をひとつの産業インフラへと統合することを目指しています。  日本の不動産業界はIT資本投資で米国の1/10に留まり、テクノロジーの活用が遅れています。 このギャップは「新しい仕組みで業界変革できる余地が多い」ということでもあり、エンジニアにとって大きなチャンスがあります。  弊社ではプロダクトのコア技術の実装にはフロントエンドからバックエンド、さらにはインフラストラクチャの定義までTypeScriptを用いています。 TypeScriptの厳密な型チェック機能をフル活用することで複雑なドメインの実装を柔軟、かつ安全に行うことを実現しています。",
+      "トグルホールディングスは、「すべてのまちと、まちをつくる人たちのために」というミッションのもと「不動産」「建築」「金融」の3業界の統合を目指します。日本の不動産業界はIT投資が米国の1/10と、テクノロジー活用が遅れています。このギャップこそ業界変革のチャンスです。弊社はフロントエンドからバックエンド、さらにはインフラの定義までTypeScriptを用いています。TypeScriptの厳密な型チェック機能をフル活用することで複雑なドメインの実装を柔軟、かつ安全に行うことを実現しています。",
   },
   {
     name: "株式会社ナレッジワーク",
@@ -62,7 +62,7 @@ const goldSponsors: Gold[] = [
     name: "株式会社ベースマキナ",
     logoImage: "sponsor/basemachina.png",
     logoLink: "https://about.basemachina.com",
-    description: "",
+    description: "株式会社ベースマキナは、管理画面を数分で立ち上げるローコードSaaS「BaseMachina」を提供しています。\n画面の構築やAPI・DBの呼び出しをする機能の汎用性を高める中でTypeScriptの恩恵を多大に受けています。\n技術的に面白い裏話も多々ございますので、懇親会やブースでお話しましょう！",
   },
   {
     name: "株式会社Helpfeel",
@@ -125,6 +125,16 @@ const silverSponsors: Silver[] = [
     name: "株式会社オプティム",
     logoImage: "sponsor/optim.png",
     logoLink: "https://www.optim.co.jp",
+  },
+  {
+    name: "NILTO",
+    logoImage: "sponsor/nilto.png",
+    logoLink: "https://www.nilto.com/ja"
+  },
+  {
+    name: "株式会社令和トラベル",
+    logoImage: "sponsor/reiwa.png",
+    logoLink: "https://www.reiwatravel.co.jp/"
   },
 ];
 
