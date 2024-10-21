@@ -1,3 +1,4 @@
+import { Linkify } from "@/components/Linkify";
 import { NavigateAnchorOnFirstRender } from "@/functional/navigate-anchor-on-first-render";
 import { sponsorPlans } from "@/lib/data/sponsorList";
 // import Container from '@/ui/container'
@@ -83,7 +84,7 @@ export default function SponsorPage() {
                         {sponsor.name}
                       </h4>
                       <p className="mb-2 whitespace-pre-wrap">
-                        {sponsor.description}
+                        <Linkify>{sponsor.description}</Linkify>
                       </p>
                     </div>
                   </div>
