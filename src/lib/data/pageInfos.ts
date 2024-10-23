@@ -1,6 +1,6 @@
 import type { IconType } from "react-icons";
 import { FaBan, FaBook } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+import { FaHandshake, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiHome } from "react-icons/hi";
 
@@ -35,6 +35,16 @@ export const pageInfos = [
     description: "",
     icon: HiHome,
     href: "/",
+  },
+  {
+    id: "sponsor",
+    showNavbar: true,
+    showFooter: true,
+    title: "スポンサー",
+    description:
+      "TSKaigi Kansai 2024はTypeScriptコミュニティを盛り上げるカンファレンスを開催します。TSKaigi Kansai 2024に協賛いただいた企業をご紹介します。",
+    icon: FaHandshake,
+    href: "/sponsor",
   },
   {
     id: "codeOfContact",
