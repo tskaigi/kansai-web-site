@@ -1,7 +1,6 @@
 import { Linkify } from "@/components/Linkify";
 import { NavigateAnchorOnFirstRender } from "@/functional/navigate-anchor-on-first-render";
 import { sponsorPlans } from "@/lib/data/sponsorList";
-// import Container from '@/ui/container'
 import Link from "next/link";
 
 const pageAnchors = {
