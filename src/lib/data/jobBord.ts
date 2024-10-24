@@ -1,5 +1,10 @@
 export const jobBoard = [
   {
+    alt: "株式会社LabBase",
+    link: "https://labbase.co.jp/engineer/",
+    imageLink: "JobBoard/B01_株式会社LabBase.png",
+  },
+  {
     alt: "株式会社Helpfeel",
     link: "https://recruit-engineer.helpfeel.com/",
     imageLink: "JobBoard/G03_株式会社Helpfeel.png",
@@ -13,6 +18,11 @@ export const jobBoard = [
     alt: "カミナシ",
     link: "https://careers.kaminashi.jp/",
     imageLink: "JobBoard/G07_カミナシ.jpg",
+  },
+  {
+    alt: "newmo株式会社",
+    link: "https://careers.newmo.me/",
+    imageLink: "JobBoard/G08_newmo株式会社.png",
   },
   {
     alt: "LINEヤフー株式会社",
