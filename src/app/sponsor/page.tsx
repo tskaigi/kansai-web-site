@@ -55,9 +55,7 @@ export default function SponsorPage() {
                 id={`${plan.name}Sponsors`}
                 className={`divider mb-8 text-2xl font-bold ${sponsorVariants[plan.name].divider} `}
               >
-                <a href={`#${plan.name}Sponsors`}>
-                  {plan.name} Sponsors
-                </a>
+                <a href={`#${plan.name}Sponsors`}>{plan.name} Sponsors</a>
               </h3>
               {plan.sponsors.map((sponsor, index) => (
                 <div
@@ -83,10 +81,13 @@ export default function SponsorPage() {
                       </div>
                     </Link>
                     <div className="sm:col-span-2">
-                      <h4 id={sponsor.id} className="mb-4 border-l-4 pl-2 text-xl lg:text-3xl">
+                      <h4
+                        id={sponsor.id}
+                        className="mb-4 border-l-4 pl-2 text-xl lg:text-3xl"
+                      >
                         <a href={`#${sponsor.id}`} className="group">
-                            {sponsor.name}
-                          <FaHashtag className="inline ml-1 mb-1 group-focus:opacity-100 group-hover:opacity-100 opacity-0 transition"/>
+                          {sponsor.name}
+                          <FaHashtag className="inline ml-1 mb-1 group-focus:opacity-100 group-hover:opacity-100 opacity-0 transition" />
                         </a>
                       </h4>
                       <p className="mb-2 whitespace-pre-wrap">
@@ -105,9 +106,7 @@ export default function SponsorPage() {
               id={`${plan.name}Sponsors`}
               className={`divider mb-8 text-2xl font-bold ${sponsorVariants[plan.name].divider} `}
             >
-              <a href={`#${plan.name}Sponsors`}>
-                {plan.name} Sponsors
-                </a>
+              <a href={`#${plan.name}Sponsors`}>{plan.name} Sponsors</a>
             </h3>
             <div
               className={
