@@ -13,7 +13,7 @@ export const JobBoard = () => {
           {jobBoard.map((job) => (
             <div key={job.link}>
               <a href={job.link} target="_blank" rel="noopener noreferrer">
-                <img src={job.imageLink} alt={job.alt} />
+                <img src={`jobBoard/${job.imageLink}`} alt={job.alt} />
               </a>
             </div>
           ))}
