@@ -2,6 +2,7 @@ import { Linkify } from "@/components/Linkify";
 import { NavigateAnchorOnFirstRender } from "@/functional/navigate-anchor-on-first-render";
 import { sponsorPlans } from "@/lib/data/sponsorList";
 import Link from "next/link";
+import { FaHashtag } from "react-icons/fa";
 
 const pageAnchors = {
   news: "news",
@@ -51,9 +52,12 @@ export default function SponsorPage() {
           return (
             <div key={plan.name}>
               <h3
+                id={`${plan.name}Sponsors`}
                 className={`divider mb-8 text-2xl font-bold ${sponsorVariants[plan.name].divider} `}
               >
-                {plan.name} Sponsors
+                <a href={`#${plan.name}Sponsors`}>
+                  {plan.name} Sponsors
+                </a>
               </h3>
               {plan.sponsors.map((sponsor, index) => (
                 <div
@@ -79,8 +83,11 @@ export default function SponsorPage() {
                       </div>
                     </Link>
                     <div className="sm:col-span-2">
-                      <h4 className="mb-4 border-l-4 pl-2 text-xl lg:text-3xl ">
-                        {sponsor.name}
+                      <h4 id={sponsor.id} className="mb-4 border-l-4 pl-2 text-xl lg:text-3xl">
+                        <a href={`#${sponsor.id}`} className="group">
+                            {sponsor.name}
+                          <FaHashtag className="inline ml-1 mb-1 group-focus:opacity-100 group-hover:opacity-100 opacity-0 transition"/>
+                        </a>
                       </h4>
                       <p className="mb-2 whitespace-pre-wrap">
                         <Linkify>{sponsor.description}</Linkify>
@@ -95,9 +102,12 @@ export default function SponsorPage() {
         return (
           <div key={plan.name}>
             <h3
+              id={`${plan.name}Sponsors`}
               className={`divider mb-8 text-2xl font-bold ${sponsorVariants[plan.name].divider} `}
             >
-              {plan.name} Sponsors
+              <a href={`#${plan.name}Sponsors`}>
+                {plan.name} Sponsors
+                </a>
             </h3>
             <div
               className={
