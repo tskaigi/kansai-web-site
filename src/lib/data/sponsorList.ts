@@ -96,7 +96,7 @@ const goldSponsors: Gold[] = [
   {
     name: "カミナシ",
     logoImage: "sponsor/kaminashi.png",
-    logoLink: "https://careers.kaminashi.jp/",
+    logoLink: "https://labbase.co.jp/",
     description:
       "カミナシは「ノンデスクワーカーの才能を解き放つ」をミッションに掲げるスタートアップです。ノンデスクワーカー現場にある、OperationやEmployee領域の課題解決を目指す、ホリゾンタルSaaSの現場DXプラットフォーム「カミナシ」を複数のサービスで提供しています。",
   },
@@ -105,7 +105,7 @@ const goldSponsors: Gold[] = [
     logoImage: "sponsor/newmo.png",
     logoLink: "https://newmo.me/",
     description:
-      'newmoは "移動で地域をカラフルに" をミッションに掲げ、利用者視点に立ったサステナブルな地域交通の実現を目指すスタートアップです。newmoは移動の多様化を通じて、新たな地域交通を実現し、地域の潜在力を引き出すことを目指します  テクノロジーを活用し多くの方が安全に柔軟に働くことができる環境を',
+      'newmoは "移動で地域をカラフルに" をミッションに掲げ、利用者視点に立ったサステナブルな地域交通の実現を目指すスタートアップです。newmoは移動の多様化を通じて、新たな地域交通を実現し、地域の潜在力を引き出すことを目指します。',
   },
   {
     name: "チームラボ",
