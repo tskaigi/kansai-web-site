@@ -1,5 +1,15 @@
 export const jobBoard = [
   {
+    alt: "トグルホールディングス株式会社",
+    link: "https://hrmos.co/pages/toggle/jobs?category=2005201705715916800",
+    imageLink: "P02_トグルホールディングス株式会社.png",
+  },
+  {
+    alt: "株式会社ナレッジワーク",
+    link: "https://kwork.studio/recruit-engineer",
+    imageLink: "P03_株式会社ナレッジワーク.jpg",
+  },
+  {
     alt: "株式会社LabBase",
     link: "https://labbase.co.jp/engineer/",
     imageLink: "B01_株式会社LabBase.png",
