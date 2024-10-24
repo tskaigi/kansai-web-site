@@ -25,6 +25,11 @@ export const jobBoard = [
     imageLink: "G04_株式会社カケハシ.jpg",
   },
   {
+    alt: "株式会社プレイド",
+    link: "https://recruit.plaid.co.jp/engineer",
+    imageLink: "G05_株式会社プレイド.png",
+  },
+  {
     alt: "カミナシ",
     link: "https://careers.kaminashi.jp/",
     imageLink: "G07_カミナシ.jpg",
