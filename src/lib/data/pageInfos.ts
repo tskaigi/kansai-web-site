@@ -2,6 +2,7 @@ import type { IconType } from "react-icons";
 import { FaBan, FaBook } from "react-icons/fa";
 import { FaHandshake, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { GiPublicSpeaker } from "react-icons/gi";
 import { HiHome } from "react-icons/hi";
 
 export const TICKET_PAGE_URL = "https://peatix.com/event/4149743";
@@ -47,6 +48,15 @@ export const pageInfos = [
       "TSKaigi Kansai 2024はTypeScriptコミュニティを盛り上げるカンファレンスを開催します。TSKaigi Kansai 2024に協賛いただいた企業をご紹介します。",
     icon: FaHandshake,
     href: "/sponsor",
+  },
+  {
+    id: "talks",
+    title: "タイムテーブル",
+    showNavbar: true,
+    showFooter: true,
+    description: "TSKaigi Kansai 2024のタイムテーブルです。",
+    icon: GiPublicSpeaker,
+    href: "/talks",
   },
   {
     id: "codeOfContact",
