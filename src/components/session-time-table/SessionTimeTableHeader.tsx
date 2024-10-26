@@ -6,7 +6,7 @@ import {
 
 const SessionTimeTableHeader = () => {
   return (
-    <div className="grid size-full grid-flow-row gap-4 md:grid-cols-10">
+    <div className="grid size-full grid-flow-row gap-4 md:grid-cols-7">
       <div className="md:flex md:min-h-24 md:rounded-lg md:bg-white" />
 
       {TRACK_HEADER_NAMES.map((headerName: string, index: number) => (

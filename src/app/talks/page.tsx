@@ -9,7 +9,7 @@ interface SessionTimeTableRowProps {
 
 const SessionTimeTableRow = ({ timeTableRow }: SessionTimeTableRowProps) => {
   return (
-    <div className="grid size-full grid-flow-row gap-4 md:grid-cols-10">
+    <div className="grid size-full grid-flow-row gap-4 md:grid-cols-7">
       {timeTableRow.map((cardInfo, index) => {
         if (!["keynote", "session"].includes(cardInfo.type)) {
           return (
