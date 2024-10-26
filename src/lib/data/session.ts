@@ -15,7 +15,16 @@ export interface CardInfo {
   keynoteSpeaker?: string;
 }
 
-export const TRACK_HEADER_NAMES: string[] = ["Track1", "Track2"];
+export const TRACK_HEADER_NAMES = [
+  {
+    id: "Track1",
+    name: "トグルルーム",
+  },
+  {
+    id: "Track2",
+    name: "カミナシ堂",
+  },
+];
 export const TRACK_HEADER_HASHTAGS: string[] = [
   "#tskaigi-kansai1",
   "#tskaigi-kansai2",
@@ -310,7 +319,7 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
       content: "オープニング",
       size: "md:col-span-6",
       track: ["Track1"],
-      labels: ["トラック1"],
+      labels: ["トグルルーム"],
     },
   ],
 
@@ -322,14 +331,14 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
       content: [SESSION_LIST.s_001],
       size: "md:col-span-3",
       track: "Track1",
-      labels: ["トラック1", "セッション"],
+      labels: ["トグルルーム", "セッション"],
     },
     {
       type: "info",
       content: "サテライト",
       size: "md:col-span-3",
       track: ["Track2"],
-      labels: ["トラック2"],
+      labels: ["カミナシ堂"],
     },
   ],
 
@@ -351,14 +360,14 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
       content: [SESSION_LIST.s_002],
       size: "md:col-span-3",
       track: "Track1",
-      labels: ["トラック1", "セッション"],
+      labels: ["トグルルーム", "セッション"],
     },
     {
       type: "session",
       content: [SESSION_LIST.s_003],
       size: "md:col-span-3",
       track: "Track2",
-      labels: ["トラック2", "セッション"],
+      labels: ["カミナシ堂", "セッション"],
     },
   ],
 
@@ -390,14 +399,14 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
       content: [LT_LIST.sp_lt_01, LT_LIST.sp_lt_02, LT_LIST.sp_lt_03],
       size: "md:col-span-3",
       track: "Track1",
-      labels: ["トラック1", "スポンサーLT"],
+      labels: ["トグルルーム", "スポンサーLT"],
     },
     {
       type: "session",
       content: [LT_LIST.sp_lt_04, LT_LIST.sp_lt_05, LT_LIST.sp_lt_06],
       size: "md:col-span-3",
       track: "Track2",
-      labels: ["トラック2", "スポンサーLT"],
+      labels: ["カミナシ堂", "スポンサーLT"],
     },
   ],
 
@@ -419,14 +428,14 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
       content: [SESSION_LIST.s_004],
       size: "md:col-span-3",
       track: "Track1",
-      labels: ["トラック1", "セッション"],
+      labels: ["トグルルーム", "セッション"],
     },
     {
       type: "session",
       content: [SESSION_LIST.s_005],
       size: "md:col-span-3",
       track: "Track2",
-      labels: ["トラック2", "セッション"],
+      labels: ["カミナシ堂", "セッション"],
     },
   ],
 
@@ -448,14 +457,14 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
       content: [SESSION_LIST.s_006],
       size: "md:col-span-3",
       track: "Track1",
-      labels: ["トラック1", "セッション"],
+      labels: ["トグルルーム", "セッション"],
     },
     {
       type: "session",
       content: [SESSION_LIST.s_007],
       size: "md:col-span-3",
       track: "Track2",
-      labels: ["トラック2", "セッション"],
+      labels: ["カミナシ堂", "セッション"],
     },
   ],
 
@@ -477,14 +486,14 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
       content: [LT_LIST.lt_001, LT_LIST.lt_003, LT_LIST.lt_005, LT_LIST.lt_007],
       size: "md:col-span-3",
       track: "Track1",
-      labels: ["トラック1", "LT"],
+      labels: ["トグルルーム", "LT"],
     },
     {
       type: "session",
       content: [LT_LIST.lt_002, LT_LIST.lt_004, LT_LIST.lt_006, LT_LIST.lt_008],
       size: "md:col-span-3",
       track: "Track2",
-      labels: ["トラック2", "LT"],
+      labels: ["カミナシ堂", "LT"],
     },
   ],
 
@@ -506,14 +515,14 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
       content: [SESSION_LIST.s_008],
       size: "md:col-span-3",
       track: "Track1",
-      labels: ["トラック1", "セッション"],
+      labels: ["トグルルーム", "セッション"],
     },
     {
       type: "session",
       content: [SESSION_LIST.s_009],
       size: "md:col-span-3",
       track: "Track2",
-      labels: ["トラック2", "セッション"],
+      labels: ["カミナシ堂", "セッション"],
     },
   ],
 
@@ -535,14 +544,14 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
       content: [SESSION_LIST.s_010],
       size: "md:col-span-3",
       track: "Track1",
-      labels: ["トラック1", "セッション"],
+      labels: ["トグルルーム", "セッション"],
     },
     {
       type: "session",
       content: [SESSION_LIST.s_011],
       size: "md:col-span-3",
       track: "Track2",
-      labels: ["トラック2", "セッション"],
+      labels: ["カミナシ堂", "セッション"],
     },
   ],
 
@@ -564,14 +573,14 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
       content: "懇親会準備",
       size: "md:col-span-3",
       track: "Track1",
-      labels: ["トラック1"],
+      labels: ["トグルルーム"],
     },
     {
       type: "session",
       content: [LT_LIST.lt_009, LT_LIST.lt_010, LT_LIST.lt_011, LT_LIST.lt_012],
       size: "md:col-span-3",
       track: "Track2",
-      labels: ["トラック2", "LT"],
+      labels: ["カミナシ堂", "LT"],
     },
   ],
 
