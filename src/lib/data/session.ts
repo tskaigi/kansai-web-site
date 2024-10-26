@@ -327,11 +327,11 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
   [
     { type: "time", content: "10:40 ~ 11:10", size: "md:col-span-1" },
     {
-      type: "session",
+      type: "keynote",
       content: [SESSION_LIST.s_001],
       size: "md:col-span-3",
       track: "Track1",
-      labels: ["トグルルーム", "セッション"],
+      labels: ["トグルルーム"],
     },
     {
       type: "info",
