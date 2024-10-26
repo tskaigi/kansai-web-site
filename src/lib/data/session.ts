@@ -560,9 +560,11 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
   [
     { type: "time", content: "17:20 ~ 17:50", size: "md:col-span-1" },
     {
-      type: "close",
+      type: "info",
       content: "懇親会準備",
       size: "md:col-span-3",
+      track: "Track1",
+      labels: ["トラック1"],
     },
     {
       type: "session",
