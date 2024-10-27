@@ -1,3 +1,5 @@
+import { TRACK_HEADER_NAMES } from "@/lib/data/session";
+
 interface SessionLabelProps {
   label: string;
   bgColor: string;
@@ -10,7 +12,7 @@ const SessionLabel = ({
   isSessionDetail,
 }: SessionLabelProps) => {
   let hiddenLabel = "";
-  if (label === "トラックA" || label === "トラックB" || label === "トラックC") {
+  if (TRACK_HEADER_NAMES.some((track) => track.name === label)) {
     hiddenLabel = "md:hidden";
   }
 

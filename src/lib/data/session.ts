@@ -25,10 +25,9 @@ export const TRACK_HEADER_NAMES = [
     name: "カミナシ堂",
   },
 ];
-export const TRACK_HEADER_HASHTAGS: string[] = [
-  "#tskaigi-kansai1",
-  "#tskaigi-kansai2",
-];
+
+// TODO: ハッシュタグを設定
+export const TRACK_HEADER_HASHTAGS: string[] = ["", ""];
 
 export const LABEL_BG_COLOR: { [key: string]: string } = {
   Track1: "bg-secondary",
@@ -478,9 +477,9 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
     },
   ],
 
-  // 15:00 ~ 15:30
+  // 15:00 ~ 15:25
   [
-    { type: "time", content: "15:00 ~ 15:30", size: "md:col-span-1" },
+    { type: "time", content: "15:00 ~ 15:25", size: "md:col-span-1" },
     {
       type: "session",
       content: [LT_LIST.lt_001, LT_LIST.lt_003, LT_LIST.lt_005, LT_LIST.lt_007],
@@ -497,9 +496,9 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
     },
   ],
 
-  // 15:30 ~ 16:00
+  // 15:25 ~ 16:00
   [
-    { type: "time", content: "15:30 ~ 16:00", size: "" },
+    { type: "time", content: "15:25 ~ 16:00", size: "" },
     {
       type: "close",
       content: "休憩",
