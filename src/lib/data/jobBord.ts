@@ -32,7 +32,7 @@ export const jobBoard = [
   {
     alt: "株式会社ビットキー",
     link: "https://herp.careers/v1/bitkeyinc/Rnc7lMgnzeYO/",
-    imageLink: "G06_株式会社ビットキー.jpg",
+    imageLink: "G06_株式会社ビットキー.png",
   },
   {
     alt: "カミナシ",
