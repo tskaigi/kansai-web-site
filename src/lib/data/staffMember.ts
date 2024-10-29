@@ -93,4 +93,9 @@ export const memberInfos = [
     image: "berlysia.webp",
     href: "https://x.com/berlysia",
   },
+  {
+    name: "tokuda109",
+    image: "tokuda109.png",
+    href: "https://x.com/tokuda109",
+  },
 ] satisfies Member[];
