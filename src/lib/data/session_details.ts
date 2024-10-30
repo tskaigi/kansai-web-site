@@ -33,7 +33,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/takashi_onda",
       github: "https://github.com/tak-onda",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "カミナシ堂", type: "セッション", time: "16:00 ~ 16:30" },
     additionalInfo: "",
   },
   maroKanatani: {
@@ -50,7 +50,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/maroKanatani",
       github: "https://github.com/maroKanatani",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "カミナシ堂", type: "LT", time: "17:20 ~ 17:50" },
     additionalInfo: "https://zenn.dev/marokanatani",
   },
   tacck: {
@@ -68,7 +68,11 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/tacck",
       github: "https://github.com/tacck",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: {
+      track: "トグルルーム",
+      type: "セッション",
+      time: "14:20 ~ 14:50",
+    },
     additionalInfo: "",
   },
   ysknsid25: {
@@ -86,7 +90,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/ysknsid25",
       github: "https://github.com/ysknsid25",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "カミナシ堂", type: "セッション", time: "16:40 ~ 17:10" },
     additionalInfo: "https://zenn.dev/yskn_sid25",
   },
   euxn23: {
@@ -102,7 +106,11 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/euxn23",
       github: "https://github.com/euxn23",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: {
+      track: "トグルルーム",
+      type: "セッション",
+      time: "13:40 ~ 14:10",
+    },
     additionalInfo: "https://blog.euxn.me",
   },
   uhyo: {
@@ -120,7 +128,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/uhyo_",
       github: "https://github.com/uhyo",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "カミナシ堂", type: "LT", time: "17:20 ~ 17:50" },
     additionalInfo: "",
   },
   canalun: {
@@ -137,7 +145,11 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/i_am_canalun",
       github: "https://github.com/canalun",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: {
+      track: "トグルルーム",
+      type: "セッション",
+      time: "10:40 ~ 11:10",
+    },
     additionalInfo: "https://zenn.dev/canalun",
   },
   mrsekut: {
@@ -153,7 +165,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/mrsekut",
       github: "https://github.com/mrsekut",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "カミナシ堂", type: "セッション", time: "13:40 ~ 14:10" },
     additionalInfo: "https://scrapbox.io/mrsekut-p/",
   },
   kawamataryo: {
@@ -169,7 +181,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/KawamataRyo",
       github: "https://github.com/kawamataryo",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "トグルルーム", type: "LT", time: "15:00 ~ 15:25" },
     additionalInfo: "",
   },
   "10tera": {
@@ -186,7 +198,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/10tera1",
       github: "https://github.com/10tera",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "カミナシ堂", type: "LT", time: "15:00 ~ 15:25" },
     additionalInfo: "https://10tera.dev/",
   },
   syumai: {
@@ -202,7 +214,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/__syumai",
       github: "https://github.com/syumai",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "カミナシ堂", type: "LT", time: "17:20 ~ 17:50" },
     additionalInfo: "https://syum.ai",
   },
   "taro-28": {
@@ -219,7 +231,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/taroro_tarotaro",
       github: "https://github.com/taro-28",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "カミナシ堂", type: "セッション", time: "11:30 ~ 12:00" },
     additionalInfo: "",
   },
   sajikix: {
@@ -235,7 +247,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/sajikix",
       github: "https://github.com/sajikix",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "カミナシ堂", type: "LT", time: "17:20 ~ 17:50" },
     additionalInfo: "https://sajiki.dev/",
   },
   "all-user": {
@@ -252,7 +264,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/all__user",
       github: "https://github.com/all-user",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "カミナシ堂", type: "LT", time: "15:00 ~ 15:25" },
     additionalInfo: "https://memowomome.hatenablog.com/",
   },
   sakupi01: {
@@ -270,7 +282,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/sakupi01",
       github: "https://github.com/sakupi01",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "カミナシ堂", type: "LT", time: "15:00 ~ 15:25" },
     additionalInfo: "https://sakupi01.com/",
   },
   yamatsum: {
@@ -288,7 +300,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/_yamatsum",
       github: "https://github.com/yamatsum",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "トグルルーム", type: "LT", time: "15:00 ~ 15:25" },
     additionalInfo: "https://zenn.dev/yamatsum",
   },
   tocomi: {
@@ -304,7 +316,11 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/tocomi0112",
       github: "https://github.com/tocomi",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: {
+      track: "トグルルーム",
+      type: "セッション",
+      time: "11:30 ~ 12:00",
+    },
     additionalInfo: "https://tocomi.net/",
   },
   sadnessOjisan: {
@@ -321,7 +337,11 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/sadnessOjisan",
       github: "https://github.com/sadnessOjisan",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: {
+      track: "トグルルーム",
+      type: "セッション",
+      time: "16:00 ~ 16:30",
+    },
     additionalInfo: "https://blog.ojisan.io/",
   },
   izumin5210: {
@@ -337,7 +357,11 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/izumin5210",
       github: "https://github.com/izumin5210",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: {
+      track: "トグルルーム",
+      type: "セッション",
+      time: "16:00 ~ 16:30",
+    },
     additionalInfo: "",
   },
   noko_noko619: {
@@ -351,7 +375,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
     speakerImage:
       "https://pbs.twimg.com/profile_images/1708073664464494592/LR3OWw8I_400x400.jpg",
     socials: { xAccount: "https://x.com/noko_noko619", github: "" },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "カミナシ堂", type: "LT", time: "15:00 ~ 15:25" },
     additionalInfo: "",
   },
   "sugar-cat7": {
@@ -368,7 +392,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/sugar235711",
       github: "https://github.com/sugar-cat7",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "トグルルーム", type: "LT", time: "15:00 ~ 15:25" },
     additionalInfo: "",
   },
   Exerea: {
@@ -384,7 +408,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/Takumi_T_JP",
       github: "https://github.com/Exerea",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "トグルルーム", type: "LT", time: "15:00 ~ 15:25" },
     additionalInfo: "https://note.com/toggle/n/n25ce52d3a2ae",
   },
   "yuta-ike": {
@@ -401,7 +425,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       xAccount: "https://x.com/Selria1",
       github: "https://github.com/yuta-ike",
     },
-    labels: { track: "Track", type: "Type", time: "Time" },
+    labels: { track: "カミナシ堂", type: "セッション", time: "14:20 ~ 14:50" },
     additionalInfo: "",
   },
 } satisfies Record<string, SessionDetail>;
