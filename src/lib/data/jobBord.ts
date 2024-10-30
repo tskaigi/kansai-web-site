@@ -10,6 +10,11 @@ export const jobBoard = [
     imageLink: "P03_株式会社ナレッジワーク.jpg",
   },
   {
+    alt: "AVITA株式会社",
+    link: "https://www.wantedly.com/companies/avita",
+    imageLink: "G01_AVITA株式会社.jpg",
+  },
+  {
     alt: "株式会社ベースマキナ",
     link: "https://basemachina.jp/recruit/",
     imageLink: "G02_株式会社ベースマキナ.png",
@@ -43,6 +48,11 @@ export const jobBoard = [
     alt: "newmo株式会社",
     link: "https://careers.newmo.me/",
     imageLink: "G08_newmo株式会社.png",
+  },
+  {
+    alt: "チームラボ",
+    link: "https://www.team-lab.com/recruit/?utm_source=tskaigikansai-job&utm_medium=web&utm_campaign=tskaigikansai-job",
+    imageLink: "G09_チームラボ.png",
   },
   {
     alt: "LINEヤフー株式会社",
