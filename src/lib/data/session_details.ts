@@ -84,8 +84,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
     role: "",
     org: "",
     bio: "完全在宅 programmer",
-    speakerImage:
-      "https://drive.google.com/file/d/1MZ8um5uEF5BCgk9MM2R4HSfZ4MSrbemX/view?usp=sharing",
+    speakerImage: "/speakerImages/kanon.png",
     socials: {
       xAccount: "https://x.com/ysknsid25",
       github: "https://github.com/ysknsid25",
