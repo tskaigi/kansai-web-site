@@ -170,6 +170,12 @@ const bronzeSponsors: Bronze[] = [
     logoImage: "sponsor/luup.png",
     logoLink: "https://luup.sc/",
   },
+  {
+    id: "B03",
+    name: "Relance",
+    logoImage: "sponsor/relance.png",
+    logoLink: "https://relance.jp/",
+  },
 ];
 
 export const sponsorPlans = [
