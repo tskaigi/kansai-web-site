@@ -1,6 +1,6 @@
 import SessionLabel from "@/components/session-time-table/SessionLabel";
 import { SESSION_SPEAKERS } from "@/lib/data/session";
-import { SESSION_DETAILS } from "@/lib/data/session_details";
+import { SESSION_DETAILS } from "@/lib/data/sessionDetails";
 
 export function generateStaticParams() {
   return SESSION_SPEAKERS.map((username) => ({

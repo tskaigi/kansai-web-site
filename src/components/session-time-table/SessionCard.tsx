@@ -16,7 +16,7 @@ const Session = ({ session }: SessionProps) => {
 
   return (
     <div className="py-2">
-      {typeof username === "string" && username ? (
+      {username ? (
         <Link href={`/talks/${username}`} className="hover:underline">
           <p className="text-base font-normal text-[#040404]">{title}</p>
         </Link>
