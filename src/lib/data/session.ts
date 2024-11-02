@@ -34,31 +34,31 @@ export const LABEL_BG_COLOR: { [key: string]: string } = {
   Track2: "bg-accent",
 };
 
-export const SESSION_SPEAKERS: string[] = [
-  // "maroKanatani",
-  // "tacck",
-  // "Kanon",
-  // "ユーン",
-  // "うひょ",
-  // "canalun(かなるん)",
-  // "mrsekut (まる)",
-  // "Kawamata Ryo",
-  // "10tera",
-  // "syumai",
-  // "taro",
-  // "Saji",
-  // "岡本 圭太@all-user",
-  // "saku",
-  // "松本泰幸（yamatsum）",
-  // "Kenta TSUNEMI",
-  // "sadnessOjisan",
-  // "恩田 崇",
-  // "izumin5210",
-  // "maroKanatani",
-  // "sugar-cat",
-  // "龍野 卓己",
-  // "yuta-ike",
-];
+export const SESSION_SPEAKERS = [
+  "tak-onda",
+  "maroKanatani",
+  "tacck",
+  "ysknsid25",
+  "euxn23",
+  "uhyo",
+  "canalun",
+  "mrsekut",
+  "kawamataryo",
+  "10tera",
+  "syumai",
+  "taro-28",
+  "sajikix",
+  "all-user",
+  "sakupi01",
+  "yamatsum",
+  "tocomi",
+  "sadnessOjisan",
+  "izumin5210",
+  "noko_noko619",
+  "sugar-cat7",
+  "Exerea",
+  "yuta-ike",
+] as const;
 
 export const SESSION_LIST = {
   s_001: {
@@ -71,19 +71,19 @@ export const SESSION_LIST = {
     type: "session",
     title: "型チェック 速度改善 奮闘記⏳",
     displayName: "Kenta TSUNEMI",
-    username: "KentaTSUNEMI",
+    username: "tocomi",
   },
   s_003: {
     type: "session",
     title: "ローコードSaaSのUXを向上させるためのTypeScript",
     displayName: "taro",
-    username: "taro",
+    username: "taro-28",
   },
   s_004: {
     type: "session",
     title: "型付き API リクエストを実現するいくつかの手法とその選択",
     displayName: "ユーン",
-    username: "ユーン",
+    username: "euxn23",
   },
   s_005: {
     type: "session",
@@ -113,8 +113,8 @@ export const SESSION_LIST = {
   s_009: {
     type: "session",
     title: "構造的型付けと serialize 境界",
-    displayName: "恩田崇",
-    username: "ondat",
+    displayName: "恩田 崇",
+    username: "tak-onda",
   },
   s_010: {
     type: "session",
@@ -127,7 +127,7 @@ export const SESSION_LIST = {
     title:
       "テストコード品質を高めるためにMutation Testingライブラリ・Strykerを実戦導入してみた",
     displayName: "Kanon",
-    username: "Kanon",
+    username: "ysknsid25",
   },
 } satisfies { [key: string]: SessionInfo };
 
@@ -227,26 +227,26 @@ export const LT_LIST = {
     type: "LT",
     title: "tslogで実現するセキュアなメタデータ管理とロギング",
     displayName: "sugar-cat",
-    username: "sugar-cat",
+    username: "sugar-cat7",
   },
   lt_002: {
     type: "LT",
     title:
       "TypeScriptの名前空間を活用したUIコンポーネントの設計と型安全性の追求",
     displayName: "saku",
-    username: "saku",
+    username: "sakupi01",
   },
   lt_003: {
     type: "LT",
     title: "ts-morphのパフォーマンス改善Tips",
     displayName: "Kawamata Ryo",
-    username: "KawamataRyo",
+    username: "kawamataryo",
   },
   lt_004: {
     type: "LT",
     title: "TypeScriptでライブラリとの依存を限定的にする方法",
     displayName: "つちのこ",
-    username: "つちのこ",
+    username: "noko_noko619",
   },
   lt_005: {
     type: "LT",
@@ -265,7 +265,7 @@ export const LT_LIST = {
     type: "LT",
     title: "Full-Stack TypeScript開発で共通化すべき型とは",
     displayName: "龍野 卓己",
-    username: "ryu",
+    username: "Exerea",
   },
   lt_008: {
     type: "LT",
@@ -283,7 +283,7 @@ export const LT_LIST = {
     type: "LT",
     title: "アプリ文言のパースで学ぶ文字列Literal型パズル入門",
     displayName: "Saji",
-    username: "Saji",
+    username: "sajikix",
   },
   lt_011: {
     type: "LT",

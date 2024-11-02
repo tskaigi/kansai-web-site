@@ -3,6 +3,7 @@ import {
   LABEL_BG_COLOR,
   type SessionInfo,
 } from "@/lib/data/session";
+import Link from "next/link";
 import SessionCardLabels from "./SessionCardLabels";
 
 interface SessionProps {
@@ -15,8 +16,10 @@ const Session = ({ session }: SessionProps) => {
 
   return (
     <div className="py-2">
-      {typeof username === "string" ? (
-        <p className="text-base font-normal text-[#040404]">{title}</p>
+      {username ? (
+        <Link href={`/talks/${username}`} className="hover:underline">
+          <p className="text-base font-normal text-[#040404]">{title}</p>
+        </Link>
       ) : (
         <p className="text-base font-normal text-[#040404]">{title}</p>
       )}
