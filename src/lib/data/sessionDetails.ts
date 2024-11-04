@@ -427,4 +427,262 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
     labels: { track: "カミナシ堂", type: "セッション", time: "14:20 ~ 14:50" },
     additionalInfo: "",
   },
+  yebis0942: {
+    title: "ベースマキナにおけるTypeScriptコードベース改善活動の紹介",
+    displayName: "福田健人",
+    sessionAbstract:
+      "株式会社ベースマキナでは、2020年（TypeScript v3）から現在（TypeScript v5）までTypeScript×Reactによるフロントエンド開発を行なってきました。 本セッションでは、私たちの継続的なコードベース改善活動についてご紹介します。",
+    role: "ソフトウェアエンジニア",
+    org: "株式会社ベースマキナ",
+    bio: "株式会社ベースマキナの開発チームで働いています。TypeScriptとReactによるフロントエンド開発と、Goによるバックエンド開発を担当。好きなテクニックはタグ付きユニオンです。",
+    speakerImage:
+      "https://pbs.twimg.com/profile_images/1110154404894654464/O5K8Eb_S_400x400.jpg",
+    socials: {
+      xAccount: "https://x.com/yebis0942",
+      github: "https://github.com/yebis0942",
+    },
+    labels: {
+      track: "カミナシ堂",
+      type: "スポンサーLT",
+      time: "12:25 ~ 13:20",
+    },
+    additionalInfo: "",
+  },
+  "yudai-nishiyama": {
+    title: "美しい京都の型と文化財",
+    displayName: "yudai nishiyama",
+    sessionAbstract: "秋の京都で開催されるTSKaigi Kansai 2024に寄せて",
+    role: "Gyazo プロジェクトマネージャー",
+    org: "株式会社Helpfeel",
+    bio: "京都大学大学院人間・環境学研究科修了。学部では工業化学を専攻して福島第一原発事故のフィールド調査にも加わったが、大学院では心機一転して社会行動論分野を研究。在学中にGyazoとScrapboxを利用しはじめ、開発メンバーとも交流するようになりました。Webエンジニアとしてキャリアを開始した後、コロナ禍を機に住まい方を見直しNota（現Helpfeel）にジョイン。現在は主にGyazoのウェブ開発に携わるとともに、普遍性のある仕組みについて日々考えています。",
+    speakerImage:
+      "https://t.gyazo.com/teams/nota/d28681e3ba9865d911cc1eb4759da3cd.jpg",
+    socials: { xAccount: "", github: "" },
+    labels: {
+      track: "トグルルーム",
+      type: "スポンサーLT",
+      time: "12:25 ~ 13:20",
+    },
+    additionalInfo: "",
+  },
+  moroball14: {
+    title: 'IDEでTypeScriptの補完が"始まる"まで',
+    displayName: "もろこし",
+    sessionAbstract:
+      "私たちが開発する上で欠かせないのがIDE（Integrated Development Environment）。エラーや警告などをエディタ上にハイライトしたり、ホバーしてAPI情報を表示したり、変数や関数の定義箇所にジャンプしたりと、IDEは様々な機能を日々私たちに提供しています。今回はそのIDEが提供する機能の一つである「補完」が実行されるまでに何が行われているか、TypeScript Language Server のコードに触れてみたいと思います。",
+    role: "エンジニア",
+    org: "株式会社ビットキー",
+    bio: "株式会社ビットキーのソフトウェアエンジニア。新しい働き方を実現するためのプロダクト「workhub」の開発に従事。テストコードが好き。アイスランドに住むことを夢見て日々仕事を頑張っている。",
+    speakerImage:
+      "https://pbs.twimg.com/profile_images/1485593400183525376/WfykAWsA_400x400.png",
+    socials: {
+      xAccount: "https://x.com/moroball14",
+      github: "https://github.com/moroball14",
+    },
+    labels: {
+      track: "カミナシ堂",
+      type: "スポンサーLT",
+      time: "12:25 ~ 13:20",
+    },
+    additionalInfo: "",
+  },
+  yoshiko_pg: {
+    title: "コンパウンド戦略を支えるフロントエンド基盤設計",
+    displayName: "よしこ",
+    sessionAbstract:
+      "ナレッジワークでは事業戦略のひとつにコンパウンド戦略を掲げています。コンパウンド戦略とは何なのか、それを実現するための技術戦略には何が必要なのか、そこから導かれる技術基盤設計はどうなるのか、マクロからミクロまでお話しします。",
+    role: "フロントエンドエンジニア",
+    org: "株式会社ナレッジワーク",
+    bio: "2015年、株式会社グッドパッチ入社。2017年、株式会社FOLIO入社。2020年、株式会社ナレッジワーク共同創業。Google Developer Experts (GDE) 選出。著書『HTML5/CSS3モダンコーディング』。",
+    speakerImage:
+      "https://pbs.twimg.com/profile_images/1675041212120858626/yg5ylM8G_400x400.jpg",
+    socials: {
+      xAccount: "https://x.com/yoshiko_pg",
+      github: "",
+    },
+    labels: {
+      track: "カミナシ堂",
+      type: "スポンサーLT",
+      time: "12:25 ~ 13:20",
+    },
+    additionalInfo: "",
+  },
+  ysk8hori: {
+    title: "TypeScript Graph でコードレビューの心理的障壁を乗り越える",
+    displayName: "ホリちゃん",
+    sessionAbstract:
+      "コードレビューを任されたとき、特にコードベースの土地勘のない箇所のレビューに対して心理的な障壁を感じませんか？ TypeScript Graph というツールを作り心理的障壁を乗り越えた事例を紹介します。また、TypeScript Graph を使うことで視覚化されてきた、我々の PR や設計の問題点についても考察します。",
+    role: "フロントエンドエンジニア",
+    org: "株式会社ドワンゴ",
+    bio: "プログラムチョット書ける。ナンプレアプリ作ってます。北海道江別市在住Webフロントエンドエンジニア。",
+    speakerImage:
+      "https://pbs.twimg.com/profile_images/1646851593944588290/MtIgxD0F_400x400.jpg",
+    socials: {
+      xAccount: "https://x.com/@YSK8_",
+      github: "https://github.com/ysk8hori",
+    },
+    labels: {
+      track: "カミナシ堂",
+      type: "スポンサーLT",
+      time: "12:25 ~ 13:20",
+    },
+    additionalInfo: "https://numberp.net/",
+  },
+  smoothbronco: {
+    title:
+      "Full TypeScriptな環境でLINE配信のコンテンツエディタを型安全に実装している話",
+    displayName: "Takahiro Hayashi",
+    sessionAbstract:
+      "- KARTE, およびKARTE Messageというプロダクトの紹介\n- KARTE Messageを使ったLINE配信のパーソナライズに関する課題と取り組み",
+    role: "エンジニア",
+    org: "株式会社プレイド",
+    bio: "2023年の7月から株式会社プレイドのインターンに参加し、2024年4月に新卒エンジニアとして入社。\nKARTE Messageの開発チームに所属し、管理画面から配信基盤まで技術領域を問わず担当している。\nプロダクト開発に加え、学生インターンの採用・育成にも取り組んでいる。",
+    speakerImage:
+      "https://pbs.twimg.com/profile_images/1769362672263532545/PnakujLL_400x400.jpg",
+    socials: {
+      xAccount: "https://x.com/smoothbronco",
+      github: "https://github.com/smoothbronco",
+    },
+    labels: {
+      track: "トグルルーム",
+      type: "スポンサーLT",
+      time: "12:25 ~ 13:20",
+    },
+    additionalInfo: "",
+  },
+  jamashita: {
+    title: "TSでシステムが堅牢になっていくさまをスポンサーになるたびに報告",
+    displayName: "やました (jamashita)",
+    sessionAbstract:
+      "フロントエンドにTSを取り入れたことによってシステムを複雑で変化に富んだ世界でも生き残れるようにする",
+    role: "新入生",
+    org: "クラフトバンク株式会社",
+    bio: "サバイバルTypeScriptをよく書いています！たぶん2番目くらいに書いています！",
+    speakerImage: "/speakerImages/jamashita.png",
+    socials: { xAccount: "", github: "https://github.com/jamashita" },
+    labels: {
+      track: "トグルルーム",
+      type: "スポンサーLT",
+      time: "12:25 ~ 13:20",
+    },
+    additionalInfo: "",
+  },
+  "suzuki-takahiro": {
+    title: "生産性を爆上げするため入社後すぐBiomeを導入した話",
+    displayName: "鈴木 貴大",
+    sessionAbstract:
+      "TypeScript の開発環境では、静的解析に ESLint、フォーマットに Prettier を使うことが多いのでないでしょうか。しかし、プロジェクトが拡大するにつれて「実行速度が課題になる」という声は少なくありません。\n\n私たちトグルホールディングスでは、フロントエンドからバックエンド、IaCまで、開発全体をTypeScriptで統一し、さらにモノレポ構成を採用しています。そのため、開発環境における実行速度は非常に重要な要素となります。\nそこで、近年注目を集めている Rust製の Biome にフォーマットと lint を移行してみました。\n\n入社したばかりの登壇者が「速さと品質の両立」のために、全社へ影響する環境改善をどのように行い、爆速な開発環境を提供できるようになったかご紹介します。",
+    role: "エンジニア",
+    org: "トグルホールディングス株式会社",
+    bio: "新卒で住宅営業職についた後、エンジニアへ転身。\nアプリケーションエンジニアとしてデータ基盤アプリや広告運用DXツールの開発を行い、Web開発や業務システムの構築を担当。フロントエンドからバックエンドまで幅広く携わる。\n\n現在は不動産流通プラットフォーム「つくるAI」のMap技術に携わる開発をフルスタックに担当しチームリーダーとして活躍中。",
+    speakerImage: "/speakerImages/suzuki_takahiro.jpg",
+    socials: { xAccount: "", github: "" },
+    labels: {
+      track: "トグルルーム",
+      type: "スポンサーLT",
+      time: "12:25 ~ 13:20",
+    },
+    additionalInfo: "",
+  },
+  kkkaoru: {
+    title: "gRPC-Gatewayとの通信でTypeScriptの型の恩恵を受ける活用事例",
+    displayName: "大高薫",
+    sessionAbstract:
+      "AVITAではgRPC-Gatewayを利用してAPIを開発しているプロダクトがあり、このAPIとの通信では機械的にTypeScriptのファイルを生成して開発をしています。\nこのセッションでは、どういう仕組みでTypeScriptの型定義を生成しているのか実例や構築する中で得た知見を共有します。",
+    role: "VPoE",
+    org: "AVITA株式会社",
+    bio: "2015年から様々な会社でフロントエンジニアとして開発経験を経て、2022年にAVITA株式会社に入社。\nAVITA株式会社では、開発効率を良くすることやチームが成長できることを日々模索しています。",
+    speakerImage:
+      "https://pbs.twimg.com/profile_images/1103976972487581697/ZjlTfbM1_400x400.jpg",
+    socials: {
+      xAccount: "https://x.com/kkk4oru",
+      github: "https://github.com/kkkaoru",
+    },
+    labels: {
+      track: "カミナシ堂",
+      type: "スポンサーLT",
+      time: "12:25 ~ 13:20",
+    },
+    additionalInfo: "",
+  },
+  toripeeeeee: {
+    title:
+      "サービス連携機能を例とした開発体験を向上するための適材適所の技術選定",
+    displayName: "鳥海 航",
+    sessionAbstract:
+      "カケハシでは「AI在庫管理」というプロダクトだけでなく「Pharmarket」という医薬品流通事業を行っています。AI在庫管理との連携機能の事例と共に、APIの技術選定について整理し、選定基準をご紹介します。",
+    role: "フロントエンドエンジニア",
+    org: "株式会社カケハシ",
+    bio: "大学院卒業後、2018年ソフトバンク株式会社に入社。データエンジニア、フロントエンドエンジニアとして、位置情報データを用いたサービス開発に従事。2022年9月より株式会社カケハシにソフトウェアエンジニアとして入社。AI在庫管理のフロントエンド開発を主に担当し、サブチームのプロダクト開発を牽引しています。",
+    speakerImage: "/speakerImages/toripeeeeee.png",
+    socials: {
+      xAccount: "https://x.com/@toripeeeeee",
+      github: "",
+    },
+    labels: {
+      track: "トグルルーム",
+      type: "スポンサーLT",
+      time: "12:25 ~ 13:20",
+    },
+    additionalInfo: "",
+  },
+  nusuke: {
+    title: "ブラウザで完結！DuckDB Wasmでタクシー地図情報を可視化",
+    displayName: "大貫優介",
+    sessionAbstract:
+      "newmoでは、タクシーの位置情報や営業エリアの管理・可視化ツールをWebアプリケーションで実装しています。\nその中でも、複雑なデータ構造を持つ営業エリア等の地図の範囲を指定するデータ構造を、Backendを介さずにDuckDB Wasmを使ってブラウザ上で簡単にProposal実装をしました。\nデモを通じてそれらの技術の利便性やFrontendで出来る事の可能性をお伝えします。",
+    role: "Software Engineer",
+    org: "newmo株式会社",
+    bio: "2019年ヤフー株式会社(現:LINEヤフー株式会社)にエンジニアとして入社。複数のプロダクト開発やEngineerManagerを経験した後に2024年8月にnewmoにジョイン。\nプロダクト開発全般好きです。",
+    speakerImage:
+      "https://pbs.twimg.com/profile_images/1839154838422093824/GKfCNpVe_400x400.jpg",
+    socials: {
+      xAccount: "https://x.com/nusuke_y",
+      github: "https://github.com/nusuke",
+    },
+    labels: {
+      track: "トグルルーム",
+      type: "スポンサーLT",
+      time: "12:25 ~ 13:20",
+    },
+    additionalInfo: "",
+  },
+  KosukeTakahashi0410: {
+    title:
+      "俺ってなんでTypescriptを書いてるんだっけ：チームラボフロントのTypescript採用までの歴史",
+    displayName: "Takahashi Kosuke",
+    sessionAbstract: "",
+    role: "",
+    org: "チームラボ",
+    bio: "チームラボでフロントエンドエンジニアをやっています。好きなVSCodeのテーマは「Kabukichō」。",
+    speakerImage: "/speakerImages/KosukeTakahashi0410.jpg",
+    socials: { xAccount: "", github: "https://github.com/KosukeTakahashi0410" },
+    labels: {
+      track: "トグルルーム",
+      type: "スポンサーLT",
+      time: "12:25 ~ 13:20",
+    },
+    additionalInfo: "",
+  },
+  naoya7076: {
+    title: "Tanstack Routerに移行するのかい、しないのかい、どっちなんだい！",
+    displayName: "Naoya Shimizu(Shimmy)",
+    sessionAbstract:
+      "Tanstack Routerが型安全なルーティングライブラリとして注目されています。\n弊社のプロダクトではReact Routerを利用していますが、移行の検討を行いました。\n実際にコードを書き換えてみたり、欲しい機能についてはライブラリの作者に聞いてみたりしました。そのうえで移行の是非を判断したのでお話します。",
+    role: "エンジニア",
+    org: "株式会社カミナシ",
+    bio: "カミナシでソフトウェアエンジニアをしています\n大阪からフルリモートで働いています\n関西の開発者コミュニティを盛り上げたい",
+    speakerImage:
+      "https://pbs.twimg.com/profile_images/1111788691804946432/bcNC7E5X_400x400.jpg",
+    socials: {
+      xAccount: "https://x.com/naoya7076",
+      github: "https://github.com/naoya7076",
+    },
+    labels: {
+      track: "カミナシ堂",
+      type: "スポンサーLT",
+      time: "12:25 ~ 13:20",
+    },
+    additionalInfo: "",
+  },
 } satisfies Record<string, SessionDetail>;
