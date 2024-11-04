@@ -83,6 +83,8 @@ export default function Home() {
           {/* TODO: 会場マップを用意する */}
         </div>
       </Container>
+      <JobBoard />
+      <SponsorSection />
       <div className="mx-auto max-w-5xl mb-40">
         <h2 className=" scroll-mt-20 text-center text-2xl font-bold text-accent lg:text-3xl">
           トーク&LT審査員
@@ -92,8 +94,6 @@ export default function Home() {
         </div>
       </div>
       <StaffMemberSection />
-      <SponsorSection />
-      <JobBoard />
     </>
   );
 }
