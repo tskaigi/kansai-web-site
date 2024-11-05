@@ -330,7 +330,7 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
       content: [SESSION_LIST.s_001],
       size: "md:col-span-3",
       track: "Track1",
-      labels: ["トグルルーム"],
+      labels: ["トグルルーム", "セッション", "Keynote"],
     },
     {
       type: "info",

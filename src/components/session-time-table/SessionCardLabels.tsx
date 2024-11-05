@@ -13,7 +13,7 @@ const SessionCardLabels = ({ labels, bgColor }: SessionCardLabels) => {
           // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
           key={`${label}-${index}`}
           label={label}
-          bgColor={bgColor}
+          bgColor={label === "Keynote" ? "bg-[#f3a200]" : bgColor}
         />
       ))}
     </div>
