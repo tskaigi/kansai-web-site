@@ -1,5 +1,10 @@
 export const jobBoard = [
   {
+    alt: "クラフトバンク株式会社",
+    link: "https://craftbank.notion.site/12d35bdfafb780babafce90f972708fc",
+    imageLink: "P01_クラフトバンク株式会社.png",
+  },
+  {
     alt: "トグルホールディングス株式会社",
     link: "https://hrmos.co/pages/toggle/jobs?category=2005201705715916800",
     imageLink: "P02_トグルホールディングス株式会社.png",
