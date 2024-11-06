@@ -359,7 +359,7 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
     labels: {
       track: "トグルルーム",
       type: "セッション",
-      time: "16:00 ~ 16:30",
+      time: "16:40 ~ 17:10",
     },
     additionalInfo: "",
   },
