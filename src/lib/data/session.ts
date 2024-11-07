@@ -619,17 +619,17 @@ export const TIME_TABLE_DATA: CardInfo[][] = [
     { type: "time", content: "17:50 ~ 18:00", size: "" },
     {
       type: "close",
-      content: "懇親会誘導",
+      content: "クロージング",
       size: "md:col-span-6",
     },
   ],
 
   // 18:00 ~ 18:05
   [
-    { type: "time", content: "18:00 ~ 18:05", size: "" },
+    { type: "time", content: "18:00 ~ 18:10", size: "" },
     {
       type: "close",
-      content: "クロージング",
+      content: "懇親会誘導",
       size: "md:col-span-6",
     },
   ],
