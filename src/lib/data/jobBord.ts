@@ -80,6 +80,11 @@ export const jobBoard = [
     imageLink: "S03_フェンリル株式会社.png",
   },
   {
+    alt: "株式会社令和トラベル",
+    link: "https://www.reiwatravel.co.jp/engineers#jobs",
+    imageLink: "S04_株式会社令和トラベル.png",
+  },
+  {
     alt: "株式会社LabBase",
     link: "https://labbase.co.jp/engineer/",
     imageLink: "B01_株式会社LabBase.png",
