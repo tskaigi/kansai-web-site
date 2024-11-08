@@ -14,6 +14,11 @@ export const jobBoard = [
     link: "https://kwork.studio/recruit-engineer",
     imageLink: "P03_株式会社ナレッジワーク.jpg",
   },
+  // { スポンサー確認待ち
+  //   alt: "株式会社ドワンゴ",
+  //   link: "https://recruit.dwango.co.jp/",
+  //   imageLink: "P04_株式会社ドワンゴ.png",
+  // },
   {
     alt: "AVITA株式会社",
     link: "https://www.wantedly.com/companies/avita",
@@ -78,5 +83,10 @@ export const jobBoard = [
     alt: "株式会社LabBase",
     link: "https://labbase.co.jp/engineer/",
     imageLink: "B01_株式会社LabBase.png",
+  },
+  {
+    alt: "株式会社Luup",
+    link: "https://recruit.luup.sc/",
+    imageLink: "B02_株式会社Luup.jpg",
   },
 ] as const;
