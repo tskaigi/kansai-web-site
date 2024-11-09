@@ -1,6 +1,7 @@
 import SessionLabel from "@/components/session-time-table/SessionLabel";
 import { SESSION_SPEAKERS } from "@/lib/data/session";
 import { SESSION_DETAILS } from "@/lib/data/sessionDetails";
+import type { Metadata } from "next";
 
 export function generateStaticParams() {
   return SESSION_SPEAKERS.map((username) => ({
@@ -107,4 +108,20 @@ export default function Page({ params }: SessionDetailPageProps) {
       </div>
     </div>
   );
+}
+
+export function generateMetadata({
+  params: { username },
+}: SessionDetailPageProps): Metadata {
+  const detailInfo = SESSION_DETAILS[username];
+  return {
+    openGraph: {
+      title: detailInfo.title,
+      images: [
+        {
+          url: `/ogp/talks/${username}.png`,
+        },
+      ],
+    },
+  };
 }
