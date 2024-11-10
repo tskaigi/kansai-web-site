@@ -123,5 +123,12 @@ export function generateMetadata({
         },
       ],
     },
+    twitter: {
+      images: [
+        {
+          url: `/ogp/talks/${username}.png`,
+        },
+      ],
+    },
   };
 }
