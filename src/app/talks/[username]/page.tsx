@@ -128,7 +128,7 @@ export function generateMetadata({
         {
           url: `/ogp/talks/${username}.png`,
         },
-      ]
-    }
+      ],
+    },
   };
 }
