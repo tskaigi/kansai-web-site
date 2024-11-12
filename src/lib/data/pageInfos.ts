@@ -6,8 +6,10 @@ import { GiPublicSpeaker } from "react-icons/gi";
 import { HiHome } from "react-icons/hi";
 
 export const TICKET_PAGE_URL = "https://peatix.com/event/4149743";
-export const TOGGLE_ROOM_STREAM_URL = "https://www.youtube.com/live/rwrMjd028Ro";
-export const KAMINASHI_DO_STREAM_URL = "https://www.youtube.com/live/-1qNnAPEK8E";
+export const TOGGLE_ROOM_STREAM_URL =
+  "https://www.youtube.com/live/rwrMjd028Ro";
+export const KAMINASHI_DO_STREAM_URL =
+  "https://www.youtube.com/live/-1qNnAPEK8E";
 
 export type PageInfo = {
   id: string;
