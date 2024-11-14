@@ -27,10 +27,7 @@ export const TRACK_HEADER_NAMES = [
 ];
 
 // TODO: ハッシュタグを設定
-export const TRACK_HEADER_HASHTAGS: string[] = [
-  "#toggle_room",
-  "#kaminashi_dou",
-];
+export const TRACK_HEADER_HASHTAGS: string[] = ["#トグルルーム", "#カミナシ堂"];
 
 export const LABEL_BG_COLOR: { [key: string]: string } = {
   Track1: "bg-secondary",
