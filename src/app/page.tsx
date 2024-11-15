@@ -3,7 +3,11 @@ import { JobBoard } from "@/components/JobBoard";
 import { SponsorSection } from "@/components/SponsorSection";
 import { StaffMemberSection } from "@/components/StaffMemberSection";
 import { selectionCommittee } from "@/lib/data/committee";
-import { TICKET_PAGE_URL } from "@/lib/data/pageInfos";
+import {
+  KAMINASHI_DO_STREAM_URL,
+  TICKET_PAGE_URL,
+  TOGGLE_ROOM_STREAM_URL,
+} from "@/lib/data/pageInfos";
 import Container from "@/ui/container";
 import { HiExternalLink } from "react-icons/hi";
 
@@ -18,6 +22,77 @@ export default function Home() {
         />
       </div>
       <Container>
+        <div className="my-20">
+          <h2 className="mb-10 scroll-mt-20 text-center text-2xl font-bold text-accent lg:text-3xl">
+            当日のお知らせ
+          </h2>
+          <div className="grid sm:grid-cols-2 mx-auto max-w-4xl gap-2">
+            <div className="bg-info-content text-base-300 rounded-md grid gap-4 p-4">
+              <p className="text-2xl text-center">現地参加の方</p>
+              <p className="text-lg">
+                会場到着後、受付で入場用QRコードの提示が必要になります。
+                <br />
+                Peatixへのログイン後、入場用QRコードを表示して列に待機してください。
+                <br />
+              </p>
+              <div className="text-center">
+                <a
+                  href={TICKET_PAGE_URL}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className="max-w-xs btn btn-md btn-accent w-full overflow-hidden whitespace-nowrap bg-gradient-to-r from-accent to-[#FFCDA8] font-bold text-primary-content hover:opacity-90"
+                >
+                  参加QRコードを表示する
+                </a>
+              </div>
+            </div>
+            <div className="border border-info-content rounded-md grid gap-4 p-4">
+              <p className="text-2xl text-center">オンライン視聴の方</p>
+              <p className="text-lg px-4">
+                オンライン視聴には無料の参加登録をお願いしております。下記リンクからお進みください。
+                <br />
+                オンラインは
+                <span className="text-accent text-2xl">当日参加</span>
+                も受け付けていますので、お気軽にご参加ください。
+              </p>
+              <div className="text-center">
+                <a
+                  href={TICKET_PAGE_URL}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className="link w-full overflow-hidden whitespace-nowrap font-bold hover:opacity-90 text-white"
+                >
+                  参加登録はこちら
+                </a>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-4 lg:flex-row lg:gap-8">
+                <a
+                  href={TOGGLE_ROOM_STREAM_URL}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className="max-w-xs w-full lg:w-auto btn btn-md btn-accent overflow-hidden whitespace-nowrap bg-gradient-to-r from-accent to-[#FFCDA8] font-bold text-primary-content hover:opacity-90"
+                >
+                  トグルルーム配信を見る
+                </a>
+                <a
+                  href={KAMINASHI_DO_STREAM_URL}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className="max-w-xs w-full lg:w-auto btn btn-md btn-accent overflow-hidden whitespace-nowrap bg-gradient-to-r from-accent to-[#FFCDA8] font-bold text-primary-content hover:opacity-90"
+                >
+                  カミナシ堂配信を見る
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="my-10 mx-auto max-w-4xl">
+            <p className="text-xl text-accent my-4">諸注意事項</p>
+            <p className="pl-2">
+              ・当日は記録のために、スタッフが撮影を行っています。個別対応はできかねますので、
+              <span className="text-accent">あらかじめご了承ください。</span>
+            </p>
+          </div>
+        </div>
         <div className="relative isolate overflow-hidden">
           <div className="mx-auto max-w-7xl ">
             <div className="mx-auto max-w-4xl lg:pt-8">
