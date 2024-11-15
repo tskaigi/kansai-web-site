@@ -89,12 +89,7 @@ export default function Home() {
           <div className="my-10 mx-auto max-w-4xl">
             <p className="text-xl text-accent my-4">諸注意事項</p>
             <p className="pl-2">
-              ・会場にはwifi(id,passはお手持ちのリーフレット参照)がありますのでご自由にお使いください。ただし、遅延を避けるためdocker
-              pull等、<span className="text-accent">負荷が懸念される操作</span>
-              はご遠慮ください。
-              <br />
-              <br />
-              ・本日は記録のために、カメラマンが撮影を行っています。個別対応はできかねますので、
+              ・当日は記録のために、スタッフが撮影を行っています。個別対応はできかねますので、
               <span className="text-accent">あらかじめご了承ください。</span>
             </p>
           </div>
