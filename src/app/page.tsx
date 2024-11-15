@@ -44,7 +44,6 @@ export default function Home() {
                 >
                   参加QRコードを表示する
                 </a>
-                {/* <Cta mainLink={loginURL} mainLinkText="参加QRを表示する" /> */}
               </div>
             </div>
             <div className="border border-info-content rounded-md grid gap-4 p-4">
