@@ -26,7 +26,6 @@ export const TRACK_HEADER_NAMES = [
   },
 ];
 
-// TODO: ハッシュタグを設定
 export const TRACK_HEADER_HASHTAGS: string[] = ["#トグルルーム", "#カミナシ堂"];
 
 export const LABEL_BG_COLOR: { [key: string]: string } = {
