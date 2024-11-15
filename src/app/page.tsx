@@ -155,7 +155,18 @@ export default function Home() {
               title="Google Map"
             />
           </div>
-          {/* TODO: 会場マップを用意する */}
+          <div className="mt-40">
+            <div className="mx-auto max-w-4xl">
+              <h2 className="m-20 scroll-mt-20 text-center text-2xl font-bold text-accent lg:text-3xl">
+                会場マップ
+              </h2>
+            </div>
+            <div className="mx-auto my-6 max-w-2xl text-left sm:px-4 lg:text-xl flex flex-col items-center">
+              <div className="bg-white rounded-xl shadow overflow-hidden">
+                <img src="/map.png" alt="会場図" />
+              </div>
+            </div>
+          </div>
         </div>
       </Container>
       <JobBoard />
