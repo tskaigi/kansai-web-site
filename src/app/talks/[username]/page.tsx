@@ -2,6 +2,7 @@ import SessionLabel from "@/components/session-time-table/SessionLabel";
 import { SESSION_SPEAKERS } from "@/lib/data/session";
 import { SESSION_DETAILS } from "@/lib/data/sessionDetails";
 import type { Metadata } from "next";
+import { IoDocumentTextOutline } from "react-icons/io5";
 
 export function generateStaticParams() {
   return SESSION_SPEAKERS.map((username) => ({
@@ -100,6 +101,15 @@ export default function Page({ params }: SessionDetailPageProps) {
                     height={22}
                     alt="twitter_link"
                   />
+                </a>
+              )}
+              {detailInfo.archive?.document && (
+                <a
+                  href={detailInfo.archive.document}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <IoDocumentTextOutline size={25} />
                 </a>
               )}
             </div>

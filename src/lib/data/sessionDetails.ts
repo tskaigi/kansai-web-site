@@ -16,6 +16,9 @@ export interface SessionDetail {
     github: string;
   };
   additionalInfo?: string;
+  archive?: {
+    document?: string;
+  };
 }
 
 export const SESSION_DETAILS: Record<string, SessionDetail> = {
@@ -35,6 +38,10 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
     },
     labels: { track: "カミナシ堂", type: "セッション", time: "16:00 ~ 16:30" },
     additionalInfo: "",
+    archive: {
+      document:
+        "https://speakerdeck.com/takonda/structural-subtyping-and-serialize",
+    },
   },
   maroKanatani: {
     title: "as（型アサーション）を書く前にできること",
@@ -52,6 +59,10 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
     },
     labels: { track: "カミナシ堂", type: "LT", time: "17:20 ~ 17:50" },
     additionalInfo: "https://zenn.dev/marokanatani",
+    archive: {
+      document:
+        "https://dev.classmethod.jp/articles/tskaigi-kansai-2024-avoid-using-as/",
+    },
   },
   tacck: {
     title:
@@ -74,6 +85,10 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       time: "14:20 ~ 14:50",
     },
     additionalInfo: "",
+    archive: {
+      document:
+        "https://speakerdeck.com/tacck/batukuendonoxing-woikanisitehurontoendohechuan-eruka-number-tskaigi-number-tskaigikansai-number-awsamplifyjp",
+    },
   },
   ysknsid25: {
     title:
@@ -91,6 +106,10 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
     },
     labels: { track: "カミナシ堂", type: "セッション", time: "16:40 ~ 17:10" },
     additionalInfo: "https://zenn.dev/yskn_sid25",
+    archive: {
+      document:
+        "https://speakerdeck.com/ysknsid25/tesutokodopin-zhi-wogao-merutamenimutation-testingraiburaristrykerwoshi-zhan-dao-ru-sitemita",
+    },
   },
   euxn23: {
     title: "型付き API リクエストを実現するいくつかの手法とその選択",
@@ -111,6 +130,9 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       time: "13:40 ~ 14:10",
     },
     additionalInfo: "https://blog.euxn.me",
+    archive: {
+      document: "https://speakerdeck.com/euxn23/typed-api-request",
+    },
   },
   uhyo: {
     title:
@@ -150,6 +172,10 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       time: "10:40 ~ 11:10",
     },
     additionalInfo: "https://zenn.dev/canalun",
+    archive: {
+      document:
+        "https://docs.google.com/presentation/d/1hnvPiSCI2UBIZ0x5OTl3ZFHvIGMIl3g37It1_Qd7hNA",
+    },
   },
   mrsekut: {
     title: "フロントエンドの型安全性を高める！Jotaiを用いたフォーム設計の実践",
@@ -166,6 +192,10 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
     },
     labels: { track: "カミナシ堂", type: "セッション", time: "13:40 ~ 14:10" },
     additionalInfo: "https://scrapbox.io/mrsekut-p/",
+    archive: {
+      document:
+        "https://scrapbox.io/mrsekut-merry-firends/フロントエンドの型安全性を高める%EF%BC%81Jotaiを用いたフォーム設計の実践_@TSKaigi_Kansai_2024",
+    },
   },
   kawamataryo: {
     title: "ts-morphのパフォーマンス改善Tips",
@@ -182,6 +212,10 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
     },
     labels: { track: "トグルルーム", type: "LT", time: "15:00 ~ 15:25" },
     additionalInfo: "",
+    archive: {
+      document:
+        "https://www.docswell.com/s/kawamataryo/56VJ1W-ts-morph-performance",
+    },
   },
   "10tera": {
     title: "subpath importsで始めるモック生活",
@@ -232,6 +266,9 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
     },
     labels: { track: "カミナシ堂", type: "セッション", time: "11:30 ~ 12:00" },
     additionalInfo: "",
+    archive: {
+      document: "https://zenn.dev/taroro28/scraps/83e2a3cd6ea2b4",
+    },
   },
   sajikix: {
     title: "アプリ文言のパースで学ぶ文字列Literal型パズル入門",
@@ -283,6 +320,9 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
     },
     labels: { track: "カミナシ堂", type: "LT", time: "15:00 ~ 15:25" },
     additionalInfo: "https://sakupi01.com/",
+    archive: {
+      document: "https://sakupi01.github.io/slides/ja/2024_tskaigi_kansai/",
+    },
   },
   yamatsum: {
     title:
@@ -301,6 +341,9 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
     },
     labels: { track: "トグルルーム", type: "LT", time: "15:00 ~ 15:25" },
     additionalInfo: "https://zenn.dev/yamatsum",
+    archive: {
+      document: "https://zenn.dev/reiwatravel/articles/9d9551f5a9cee2",
+    },
   },
   tocomi: {
     title: "型チェック 速度改善 奮闘記⏳",
@@ -321,6 +364,10 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
       time: "11:30 ~ 12:00",
     },
     additionalInfo: "https://tocomi.net/",
+    archive: {
+      document:
+        "https://speakerdeck.com/tocomi/xing-tietuku-su-du-gai-shan-fen-dou-ji",
+    },
   },
   sadnessOjisan: {
     title: "TypeScript、上達の瞬間",
@@ -409,6 +456,10 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
     },
     labels: { track: "トグルルーム", type: "LT", time: "15:00 ~ 15:25" },
     additionalInfo: "https://note.com/toggle/n/n25ce52d3a2ae",
+    archive: {
+      document:
+        "https://speakerdeck.com/takumi_tatsuno/tskaigi-kansai-deng-tan-zi-liao",
+    },
   },
   "yuta-ike": {
     title: "複雑なフロントエンド（ノーコード）を堅牢に作る",
@@ -426,6 +477,10 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
     },
     labels: { track: "カミナシ堂", type: "セッション", time: "14:20 ~ 14:50" },
     additionalInfo: "",
+    archive: {
+      document:
+        "https://www.docswell.com/s/yuta-ike/KJ486V-tskaigi-kansai-2024",
+    },
   },
   yebis0942: {
     title: "ベースマキナにおけるTypeScriptコードベース改善活動の紹介",
