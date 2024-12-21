@@ -233,6 +233,10 @@ export const SESSION_DETAILS: Record<string, SessionDetail> = {
     },
     labels: { track: "カミナシ堂", type: "LT", time: "15:00 ~ 15:25" },
     additionalInfo: "https://10tera.dev/",
+    archive: {
+      document:
+        "https://speakerdeck.com/10tera/subpath-importsdeshi-merumotukusheng-huo",
+    },
   },
   syumai: {
     title: "初めてDefinitelyTypedにPRを出した話",
